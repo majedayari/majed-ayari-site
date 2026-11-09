@@ -1,0 +1,2657 @@
+{
+ "personas": {
+  "EXP": "PME exportatrice (santé/tourisme médical, écoles privées, hôtels, BPO, immobilier diaspora)",
+  "MKT": "Équipe marketing interne (banque, assurance, télécom, distribution) – formation intra",
+  "FRL": "Freelance / petite agence tunisienne servant des clients étrangers",
+  "STA": "Startup labellisée / SaaS",
+  "FRC": "Entreprise en France ou au Canada qui cherche un prestataire marketing en Tunisie (nearshore)",
+  "ALL": "Tous ICP"
+ },
+ "pages": [
+  {
+   "id": "H01",
+   "label": "Accueil",
+   "silo": "/",
+   "url": "/",
+   "h1": "Consultant SEO, Google Ads et IA basé en Tunisie, pour les entreprises françaises et canadiennes",
+   "pageType": "Accueil (marque)",
+   "primaryQuery": "consultant marketing digital",
+   "queries": [
+    "consultant seo sea",
+    "consultant webmarketing",
+    "consultant seo google ads",
+    "consultant marketing digital tunisie"
+   ],
+   "cluster": "Marque & consultant",
+   "intent": "navigationnelle + commerciale",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Majed Ayari (Person)",
+   "mentions": [
+    "SEO",
+    "GEO",
+    "Google Ads",
+    "Meta Ads",
+    "n8n",
+    "Tunisie",
+    "Québec",
+    "France"
+   ],
+   "schema": "WebSite + Person + ProfessionalService (provider) + FAQPage",
+   "inbound": "Menu (logo), pied de page, toutes les pages",
+   "gap": "« consultant SEO Tunisie » : houssemsaadi.tn 1er observé (SEO seul). Aucun freelance ne combine SEO + Ads + GEO ; SEORank = agence. Rapports SERP 06/10 : l'évaluateur écarte le consultant classé sans preuve vérifiable (Boufaid) → références (SEO CAMP, Rocketlinks, fiche Google) affichées avant le formulaire. DataForSEO 05/10 : « consultant marketing digital » 480 FR + 320 CA, SERP de consultants indépendants.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un prestataire en Tunisie, des résultats mesurés en France",
+    "text": "Je travaille depuis la Tunisie (Hammamet) et le Canada (Scott, au Québec), pour des entreprises en France, au Québec et en Tunisie. Pour un client français : un consultant francophone, au plus une heure de décalage avec Paris, et un seul interlocuteur pour le SEO, le référencement IA et Google Ads.",
+    "query": "consultant marketing digital tunisie",
+    "link": "H05"
+   }
+  },
+  {
+   "id": "H02",
+   "label": "À propos",
+   "silo": "/",
+   "url": "/a-propos/",
+   "h1": "Qui est Majed Ayari : parcours, méthode, comptes pilotés au Québec, en France et en Tunisie",
+   "pageType": "Preuve (bio / ProfilePage)",
+   "primaryQuery": "majed ayari",
+   "queries": [
+    "majed ayari seo",
+    "majed ayari google ads",
+    "expert seo tunisien québec",
+    "consultant seo tunisien"
+   ],
+   "cluster": "Marque & consultant",
+   "intent": "navigationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Majed Ayari (Person)",
+   "mentions": [
+    "Google Skillshop",
+    "Google Ads",
+    "Display & Video 360",
+    "Semrush",
+    "GA4",
+    "Google Tag Manager",
+    "Shopify",
+    "Klaviyo",
+    "Zapier",
+    "n8n",
+    "SEO CAMP",
+    "Rocketlinks",
+    "Satoripop"
+   ],
+   "schema": "ProfilePage + Person (sameAs LinkedIn, Skillshop, GitHub…, knowsAbout, alumniOf, hasCredential)",
+   "inbound": "Menu, signature de chaque article (auteur), accueil",
+   "gap": "0/18 concurrents avec Person complet : Amdouni 1 sameAs, Turki 7 sameAs mêlés à l'agence. Modèle : vincenthego.com /mon-histoire/. Photo, certifications (Google Ads, DV360, Semrush) et outils (GA4, GTM, Shopify, Klaviyo, Zapier) fournis le 06/10/2026.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Pourquoi je travaille depuis la Tunisie",
+    "text": "Mon parcours s'est fait entre le Québec, la France et la Tunisie. Aujourd'hui, je travaille depuis Hammamet, en Tunisie, et depuis Scott, au Québec : je pilote des comptes et des sites destinés aux marchés tunisien, français et canadien.",
+    "query": "consultant seo tunisien",
+    "link": "H03"
+   }
+  },
+  {
+   "id": "H03",
+   "label": "Ma méthode",
+   "silo": "/",
+   "url": "/methode/",
+   "h1": "Ma méthode : mesurer avant de dépenser, compte à votre nom, transfert de compétences",
+   "pageType": "Preuve (méthode)",
+   "primaryQuery": "compte google ads au nom du client",
+   "queries": [
+    "méthode consultant google ads",
+    "transfert de compétences marketing",
+    "reporting transparent",
+    "consultant à distance tunisie"
+   ],
+   "cluster": "Marque & consultant",
+   "intent": "commerciale",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Méthode d'accompagnement",
+   "mentions": [
+    "conversions",
+    "GA4",
+    "compte publicitaire",
+    "reporting automatisé"
+   ],
+   "schema": "WebPage + HowTo + FAQPage",
+   "inbound": "Accueil, pages services (bloc « comment je travaille »)",
+   "gap": "Répond aux objections Reddit (« tout retombe quand j'arrête de payer », agence qui garde le compte).",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Travailler avec un consultant en Tunisie : ce qui change pour vous",
+    "text": "Rien sur la propriété : vos comptes Google Ads, Analytics et Search Console restent à votre nom, que je travaille depuis Tunis ou non. Les points d'étape se font en visio, aux heures de bureau françaises.",
+    "query": "consultant à distance tunisie",
+    "link": "H05"
+   }
+  },
+  {
+   "id": "H04",
+   "label": "Tarifs",
+   "silo": "/",
+   "url": "/tarifs/",
+   "h1": "Tarifs 2026 : audits, formations et accompagnement (en DT, EUR et CAD)",
+   "pageType": "Transactionnelle (tarifs)",
+   "primaryQuery": "tarif consultant seo",
+   "queries": [
+    "tarif audit seo",
+    "tarif consultant google ads",
+    "prix consultant google ads",
+    "tarif consultant seo tunisie"
+   ],
+   "cluster": "Marque & consultant",
+   "intent": "transactionnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Offre de services",
+   "mentions": [
+    "dinar tunisien",
+    "TVA 19 %",
+    "retenue à la source"
+   ],
+   "schema": "WebPage + OfferCatalog (Offer + UnitPriceSpecification)",
+   "inbound": "Menu, chaque page service/formation (bloc prix)",
+   "gap": "Aucun freelance tunisien n'a de page tarifs consolidée (Laabidi, Saadi : prix épars). WFR 680 DT et WG 312 TND affichent des prix de formation. Question « Quel est le prix d'un consultant Google Ads ? » relevée en SERP (06/10) : y répondre en FAQ, avec une fourchette.",
+   "priority": "P1",
+   "lock": "Grille tarifaire à valider (fourchettes de la synthèse ICP)",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Tarifs pour la France, tarifs pour la Tunisie",
+    "text": "Les prestations pour les entreprises tunisiennes sont chiffrées en dinars ; celles pour la France et le Québec, en euros ou en dollars canadiens. Le contenu de la mission est le même.",
+    "query": "tarif consultant seo tunisie",
+    "link": "H05"
+   }
+  },
+  {
+   "id": "H05",
+   "label": "Contact",
+   "silo": "/",
+   "url": "/contact/",
+   "h1": "Réserver un diagnostic de 30 minutes",
+   "pageType": "Compte / conversion",
+   "primaryQuery": "contact majed ayari",
+   "queries": [
+    "rendez-vous consultant seo",
+    "diagnostic google ads gratuit",
+    "contact consultant seo tunisie"
+   ],
+   "cluster": "Marque & consultant",
+   "intent": "transactionnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Majed Ayari (Person)",
+   "mentions": [
+    "WhatsApp",
+    "Calendly/Cal.com"
+   ],
+   "schema": "ContactPage",
+   "inbound": "Menu (CTA), pied de page, toutes les pages",
+   "gap": "",
+   "priority": "P1",
+   "lock": "Back-end formulaire (PHP ou Resend) à brancher",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Vous êtes en France et cherchez un prestataire en Tunisie ?",
+    "text": "Je travaille depuis Hammamet (Tunisie) et Scott (Québec). Indiquez votre pays dans le message : le diagnostic de 30 minutes se fait en visio, aux heures de bureau françaises.",
+    "query": "contact consultant seo tunisie",
+    "link": "S00"
+   }
+  },
+  {
+   "id": "S00",
+   "label": "Services",
+   "silo": "/services/",
+   "url": "/services/",
+   "h1": "Services : SEO, GEO, Google Ads, Meta Ads, mesure et automatisation",
+   "pageType": "Pilier (hub services)",
+   "primaryQuery": "services marketing digital tunisie",
+   "queries": [
+    "consultant acquisition digitale tunisie",
+    "prestataire seo google ads tunisie"
+   ],
+   "cluster": "Services",
+   "intent": "commerciale",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Offre de services",
+   "mentions": [
+    "SEO",
+    "GEO",
+    "Google Ads",
+    "Meta Ads",
+    "n8n"
+   ],
+   "schema": "CollectionPage + ItemList(Service) + BreadcrumbList",
+   "inbound": "Menu, accueil",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Toutes ces prestations, réalisées depuis la Tunisie",
+    "text": "SEO, référencement IA, Google Ads, Meta Ads, mesure et automatisation : je réalise chaque mission depuis la Tunisie, pour des entreprises en France comme en Tunisie.",
+    "query": "prestataire seo google ads tunisie",
+    "link": "H05"
+   }
+  },
+  {
+   "id": "S10",
+   "label": "SEO",
+   "silo": "/services/seo/",
+   "url": "/services/seo/",
+   "h1": "Consultant SEO freelance : un référencement naturel mesuré sur vos ventes",
+   "pageType": "Service (pilier silo)",
+   "primaryQuery": "consultant seo freelance",
+   "queries": [
+    "freelance seo",
+    "expert seo",
+    "consultant référencement naturel",
+    "consultant seo",
+    "consultant seo freelance tunisie"
+   ],
+   "cluster": "Services SEO",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Search engine optimization (Q180711)",
+   "mentions": [
+    "Google",
+    "Core Web Vitals",
+    "netlinking",
+    "données structurées",
+    "SEO local"
+   ],
+   "schema": "Service (provider Person) + Offer + FAQPage + BreadcrumbList",
+   "inbound": "Hub services, accueil, articles cluster SEO",
+   "gap": "Les 6 ciblent Google.tn ; personne ne vend le SEO pour l'export vers .fr/.ca sauf SEORank (page générique). Rapports 06/10 : deux modes d'achat (accompagnement vs mission ponctuelle/urgence) → afficher les 2 formules et le délai d'intervention.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un consultant SEO en Tunisie pour un site qui vise Google France",
+    "text": "Je travaille votre référencement naturel depuis la Tunisie, mais je le mesure là où sont vos clients : sur Google.fr, avec vos données Search Console. Pour une PME française, c'est un consultant SEO francophone sans passer par une agence offshore.",
+    "query": "consultant seo freelance tunisie",
+    "link": "N01"
+   }
+  },
+  {
+   "id": "S11",
+   "label": "Audit SEO",
+   "silo": "/services/seo/",
+   "url": "/services/seo/audit-seo/",
+   "h1": "Audit SEO : technique, contenu, entités et plan d'action priorisé",
+   "pageType": "Service",
+   "primaryQuery": "audit seo",
+   "queries": [
+    "audit technique seo",
+    "audit seo site web",
+    "audit seo gratuit",
+    "audit seo tunisie"
+   ],
+   "cluster": "Services SEO",
+   "intent": "transactionnelle",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Audit SEO",
+   "mentions": [
+    "Screaming Frog",
+    "Google Search Console",
+    "Core Web Vitals",
+    "maillage interne"
+   ],
+   "schema": "Service + Offer + HowTo + FAQPage",
+   "inbound": "S10, H04, articles SEO",
+   "gap": "Livrable concret (fiches d'action) vs audits génériques.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un audit SEO réalisé en Tunisie, livré pour votre équipe en France",
+    "text": "L'audit est réalisé depuis la Tunisie avec les mêmes outils qu'en agence (Screaming Frog, Search Console). Vous recevez des fiches d'action que votre développeur peut appliquer directement.",
+    "query": "audit seo tunisie",
+    "link": "S10"
+   }
+  },
+  {
+   "id": "S12",
+   "label": "SEO international",
+   "silo": "/services/seo/",
+   "url": "/services/seo/seo-international/",
+   "h1": "SEO international : être trouvé en France, au Canada et en Tunisie",
+   "pageType": "Service (ICP)",
+   "primaryQuery": "seo international",
+   "queries": [
+    "hreflang",
+    "seo canada",
+    "référencement international",
+    "seo international tunisie"
+   ],
+   "cluster": "Services SEO",
+   "intent": "commerciale",
+   "personas": [
+    "EXP"
+   ],
+   "about": "International SEO",
+   "mentions": [
+    "hreflang",
+    "Google France",
+    "Google Canada",
+    "ccTLD"
+   ],
+   "schema": "Service + FAQPage + BreadcrumbList",
+   "inbound": "S10, /pour/exportateurs/, articles hreflang",
+   "gap": "Seul SEORank a une page /seo-international/ ; aucun n'appuie sur une pratique réelle au Québec/France.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Le SEO international, vu depuis trois marchés",
+    "text": "Je travaille depuis la Tunisie sur des sites qui visent la France et le Canada : le hreflang, les versions de pays et la concurrence locale font partie de mon quotidien.",
+    "query": "seo international tunisie",
+    "link": "S10"
+   }
+  },
+  {
+   "id": "S20",
+   "label": "Référencement IA (GEO)",
+   "silo": "/services/geo/",
+   "url": "/services/geo/",
+   "h1": "Consultant GEO : faire citer votre entreprise par ChatGPT, Gemini, Perplexity et AI Overviews",
+   "pageType": "Service (pilier silo)",
+   "primaryQuery": "consultant geo",
+   "queries": [
+    "agence geo",
+    "expert geo",
+    "agence référencement ia",
+    "optimisation chatgpt",
+    "agence seo ia",
+    "agence de référencement ia",
+    "agence seo geo",
+    "consultant seo geo",
+    "référencement ia tunisie"
+   ],
+   "cluster": "Services GEO",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA",
+    "MKT"
+   ],
+   "about": "Generative engine optimization",
+   "mentions": [
+    "ChatGPT",
+    "Gemini",
+    "Perplexity",
+    "Google AI Overviews",
+    "llms.txt",
+    "Knowledge Graph"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "Hub services, accueil, cluster GEO (pilier /ressources/geo/)",
+   "gap": "6/12 agences ont une page GEO (WFR, WG, iTrend, Web6, Novatis, SEORank) : aucune ne publie de mesure. Primaire = « référencement IA » car « expert GEO » collisionne avec la géologie.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Le référencement IA depuis la Tunisie, pour être cité en France",
+    "text": "Je mesure depuis la Tunisie ce que ChatGPT, Gemini et Perplexity répondent à vos clients français, puis je corrige ce qui empêche votre marque d'être citée.",
+    "query": "référencement ia tunisie",
+    "link": "S21"
+   }
+  },
+  {
+   "id": "S21",
+   "label": "Audit GEO",
+   "silo": "/services/geo/",
+   "url": "/services/geo/audit-geo/",
+   "h1": "Audit GEO : ce que les IA disent (ou taisent) de votre entreprise",
+   "pageType": "Service",
+   "primaryQuery": "audit geo",
+   "queries": [
+    "audit visibilité ia",
+    "audit llm",
+    "mesurer visibilité chatgpt",
+    "audit geo tunisie"
+   ],
+   "cluster": "Services GEO",
+   "intent": "transactionnelle",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Audit GEO",
+   "mentions": [
+    "banque de prompts",
+    "ZeroRank",
+    "taux de citation",
+    "part de voix IA"
+   ],
+   "schema": "Service + Offer + HowTo",
+   "inbound": "S20, outil T01, H04",
+   "gap": "WG : audit GEO à 600 TND sans méthode publiée. Modèle : vincenthego.com/audit-geo/ (méthode + prompts + prix).",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un audit GEO piloté depuis la Tunisie",
+    "text": "Les questions sont posées aux IA dans la langue et le pays de vos clients (France, Québec ou Tunisie) : l'audit reflète ce qu'ils voient, pas ce que je vois.",
+    "query": "audit geo tunisie",
+    "link": "S20"
+   }
+  },
+  {
+   "id": "S30",
+   "label": "Google Ads",
+   "silo": "/services/google-ads/",
+   "url": "/services/google-ads/",
+   "h1": "Consultant Google Ads : des campagnes pilotées sur vos rendez-vous, pas sur des clics",
+   "pageType": "Service (pilier silo)",
+   "primaryQuery": "consultant google ads",
+   "queries": [
+    "expert google ads",
+    "freelance google ads",
+    "consultant sea",
+    "expert sea",
+    "freelance google ads tunisie"
+   ],
+   "cluster": "Services Google Ads",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Google Ads (Q271982)",
+   "mentions": [
+    "Performance Max",
+    "Search",
+    "conversions",
+    "Smart Bidding",
+    "Skillshop"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "Hub services, accueil, cluster Google Ads",
+   "gap": "« expert Google Ads Tunisie » : 0 freelance dans le top 10 observé, que des agences = espace libre n°1. Confirmé le 06/10 sur « consultant google ads tunisie » (10/10 agences, annuaires ou plateformes). Afficher les 2 formules : accompagnement et intervention ponctuelle.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un consultant Google Ads en Tunisie, des campagnes en euros",
+    "text": "Je gère vos campagnes depuis la Tunisie, mais elles tournent sur votre compte, en euros, ciblées sur la France. Vous gardez la main sur le compte et sur la carte de paiement.",
+    "query": "freelance google ads tunisie",
+    "link": "N02"
+   }
+  },
+  {
+   "id": "S31",
+   "label": "Audit de compte Google Ads",
+   "silo": "/services/google-ads/",
+   "url": "/services/google-ads/audit-compte/",
+   "h1": "Audit de compte Google Ads : où part votre budget",
+   "pageType": "Service",
+   "primaryQuery": "audit google ads",
+   "queries": [
+    "audit compte google ads",
+    "pourquoi google ads ne convertit pas",
+    "audit google ads tunisie"
+   ],
+   "cluster": "Services Google Ads",
+   "intent": "transactionnelle",
+   "personas": [
+    "EXP",
+    "STA",
+    "MKT"
+   ],
+   "about": "Audit Google Ads",
+   "mentions": [
+    "termes de recherche",
+    "négatifs",
+    "conversions",
+    "Performance Max"
+   ],
+   "schema": "Service + Offer + HowTo",
+   "inbound": "S30, S50, articles « zéro conversion »",
+   "gap": "Absent chez les 6 en page dédiée.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Faire auditer son compte Google Ads par un consultant en Tunisie",
+    "text": "Un accès en lecture suffit : j'audite votre compte depuis la Tunisie sans rien modifier, et la restitution se fait en visio aux heures françaises.",
+    "query": "audit google ads tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "S40",
+   "label": "Meta Ads",
+   "silo": "/services/meta-ads/",
+   "url": "/services/meta-ads/",
+   "h1": "Meta Ads pour générer des leads qualifiés (pas du « boost »)",
+   "pageType": "Service (pilier silo)",
+   "primaryQuery": "consultant facebook ads",
+   "queries": [
+    "freelance meta ads",
+    "expert facebook ads",
+    "publicité facebook instagram leads",
+    "consultant meta ads tunisie"
+   ],
+   "cluster": "Services Meta Ads",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Meta Ads",
+   "mentions": [
+    "Facebook",
+    "Instagram",
+    "Lead Ads",
+    "API Conversions",
+    "WhatsApp"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "Hub services, accueil, cluster Meta",
+   "gap": "Atelier, WG, iTrend : angle sponsoring/packs. Aucun freelance n'a de page Meta Ads.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Meta Ads : du sponsoring tunisien aux campagnes de leads en France",
+    "text": "En Tunisie, on parle de sponsoring Facebook ; en France, de campagnes de génération de leads. Je pilote les deux depuis la Tunisie, avec la même mesure des prospects qualifiés.",
+    "query": "consultant meta ads tunisie",
+    "link": "N03"
+   }
+  },
+  {
+   "id": "S50",
+   "label": "Mesure des conversions",
+   "silo": "/services/",
+   "url": "/services/mesure-conversions/",
+   "h1": "Suivi des conversions : tracking server side, GA4 et Consent Mode",
+   "pageType": "Service (USP)",
+   "primaryQuery": "tracking server side",
+   "queries": [
+    "gtm server side",
+    "suivi des conversions google ads",
+    "consent mode",
+    "api conversions meta",
+    "tracking conversions tunisie"
+   ],
+   "cluster": "Services Mesure",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "MKT",
+    "STA"
+   ],
+   "about": "Conversion tracking",
+   "mentions": [
+    "GA4",
+    "Google Tag Manager",
+    "Consent Mode",
+    "API Conversions"
+   ],
+   "schema": "Service + Offer + FAQPage",
+   "inbound": "S30, S40, S31, H03",
+   "gap": "USP n°2 « mesure avant dépense » : 0/18 en service autonome (WG : audit tracking gratuit seulement).",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Configurer le suivi des conversions à distance, depuis la Tunisie",
+    "text": "GA4, Google Tag Manager, Consent Mode et API Conversions se configurent à distance : je les installe depuis la Tunisie, dans le respect du RGPD pour vos visiteurs français.",
+    "query": "tracking conversions tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "S60",
+   "label": "Automatisation n8n + IA",
+   "silo": "/services/",
+   "url": "/services/automatisation-n8n/",
+   "h1": "Automatisation n8n et IA pour le marketing : reporting, leads, contenus",
+   "pageType": "Service (pilier silo)",
+   "primaryQuery": "agence n8n",
+   "queries": [
+    "freelance n8n",
+    "expert n8n",
+    "agence automatisation ia",
+    "automatisation n8n",
+    "automatisation n8n tunisie"
+   ],
+   "cluster": "Services Automatisation",
+   "intent": "commerciale",
+   "personas": [
+    "MKT",
+    "STA",
+    "FRL"
+   ],
+   "about": "n8n",
+   "mentions": [
+    "n8n",
+    "WhatsApp Business API",
+    "CRM",
+    "Looker Studio",
+    "Claude/OpenAI"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "Hub services, accueil, cluster automatisation",
+   "gap": "n8n nommé en page service : 0/18 (Silkdev fait de l'automatisation IA sans SEO/Ads).",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Des automatisations n8n construites en Tunisie, hébergées chez vous",
+    "text": "Je construis vos workflows n8n depuis la Tunisie ; ils tournent sur votre serveur ou votre instance, en Europe si vos données l'exigent.",
+    "query": "automatisation n8n tunisie",
+    "link": "F05"
+   }
+  },
+  {
+   "id": "P00",
+   "label": "Pour qui",
+   "silo": "/pour/",
+   "url": "/pour/",
+   "h1": "Pour qui je travaille",
+   "pageType": "Pilier (hub ICP)",
+   "primaryQuery": "consultant marketing digital pme tunisie",
+   "queries": [
+    "prestataire marketing digital tunisie"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Offre de services",
+   "mentions": [],
+   "schema": "CollectionPage + ItemList",
+   "inbound": "Menu, accueil",
+   "gap": "",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "En France ou en Tunisie : à qui je m'adresse",
+    "text": "Ces profils sont surtout des entreprises tunisiennes qui vendent à l'export. Les entreprises françaises qui cherchent un prestataire en Tunisie sont aussi les bienvenues : la méthode est la même.",
+    "query": "prestataire marketing digital tunisie",
+    "link": "S00"
+   }
+  },
+  {
+   "id": "P01",
+   "label": "Exportateurs",
+   "silo": "/pour/",
+   "url": "/pour/exportateurs/",
+   "h1": "Marketing digital pour les entreprises tunisiennes qui vendent en France et au Canada",
+   "pageType": "Persona / secteur",
+   "primaryQuery": "marketing digital export tunisie",
+   "queries": [
+    "trouver clients france depuis tunisie",
+    "google ads export",
+    "prospection internationale en ligne",
+    "marketing export tunisie"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "EXP"
+   ],
+   "about": "Exportation",
+   "mentions": [
+    "France",
+    "Canada",
+    "Québec",
+    "devises",
+    "CEPEX"
+   ],
+   "schema": "WebPage + Service (audience BusinessAudience) + FAQPage",
+   "inbound": "P00, S12, accueil",
+   "gap": "ICP n°1, pas de page équivalente chez les 6.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Exporter depuis la Tunisie, avec un consultant qui connaît les deux côtés",
+    "text": "Je travaille depuis la Tunisie et je mesure vos campagnes en France et au Canada : je vois à la fois vos contraintes de paiement locales et les attentes de vos acheteurs étrangers.",
+    "query": "marketing export tunisie",
+    "link": "S12"
+   }
+  },
+  {
+   "id": "P02",
+   "label": "Tourisme médical",
+   "silo": "/pour/",
+   "url": "/pour/tourisme-medical/",
+   "h1": "Attirer des patients étrangers : cliniques, chirurgie esthétique, dentaire",
+   "pageType": "Persona / secteur",
+   "primaryQuery": "marketing tourisme médical tunisie",
+   "queries": [
+    "google ads clinique",
+    "seo clinique esthétique",
+    "patients étrangers tunisie",
+    "tourisme médical tunisie"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "EXP"
+   ],
+   "about": "Tourisme médical",
+   "mentions": [
+    "clinique",
+    "patients France",
+    "ChatGPT recommandations"
+   ],
+   "schema": "WebPage + Service + FAQPage",
+   "inbound": "P00, P01, S20",
+   "gap": "SEORank/Visibility ont « santé » mais orienté local, pas patients étrangers.",
+   "priority": "P2",
+   "lock": "Règles pub santé (Google/Meta) à vérifier",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Tourisme médical : attirer des patients français depuis la Tunisie",
+    "text": "Vos patients cherchent en France ; votre clinique est en Tunisie. Je travaille depuis la Tunisie sur les deux bouts : visibilité sur Google.fr et suivi des demandes de devis.",
+    "query": "tourisme médical tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "P03",
+   "label": "Écoles privées",
+   "silo": "/pour/",
+   "url": "/pour/ecoles-privees/",
+   "h1": "Recruter des étudiants, y compris africains et internationaux",
+   "pageType": "Persona / secteur",
+   "primaryQuery": "marketing digital école privée tunisie",
+   "queries": [
+    "recrutement étudiants internationaux",
+    "google ads université privée",
+    "école privée tunisie"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "EXP"
+   ],
+   "about": "Enseignement supérieur privé",
+   "mentions": [
+    "Afrique subsaharienne",
+    "Campus France"
+   ],
+   "schema": "WebPage + Service + FAQPage",
+   "inbound": "P00, P01",
+   "gap": "",
+   "priority": "P3",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Écoles privées en Tunisie : recruter des étudiants d'ailleurs",
+    "text": "Depuis la Tunisie, je pilote vos campagnes vers les étudiants étrangers, en France comme ailleurs, avec un suivi des inscriptions réelles.",
+    "query": "école privée tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "P04",
+   "label": "Hôtels",
+   "silo": "/pour/",
+   "url": "/pour/hotels/",
+   "h1": "Hôtels : réduire la dépendance aux OTA avec Google Ads, GEO et réservations directes",
+   "pageType": "Persona / secteur",
+   "primaryQuery": "google hotel ads",
+   "queries": [
+    "marketing digital hôtel tunisie",
+    "réservation directe hôtel",
+    "hôtel tunisie réservation directe"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "EXP"
+   ],
+   "about": "Hôtellerie",
+   "mentions": [
+    "Booking.com",
+    "Google Hotel Ads",
+    "OTA"
+   ],
+   "schema": "WebPage + Service + FAQPage",
+   "inbound": "P00, P01",
+   "gap": "« google hotel ads » = 170/mois en France.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Hôtels en Tunisie : des réservations directes depuis la France",
+    "text": "La clientèle française réserve souvent par les plateformes. Je travaille depuis la Tunisie sur Google Hotel Ads et votre site pour récupérer une part de ces réservations en direct.",
+    "query": "hôtel tunisie réservation directe",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "P05",
+   "label": "Freelances et agences",
+   "silo": "/pour/",
+   "url": "/pour/freelances-agences/",
+   "h1": "Freelances et agences : marque blanche et montée en niveau international",
+   "pageType": "Persona",
+   "primaryQuery": "sous-traitance seo",
+   "queries": [
+    "marque blanche seo",
+    "marque blanche google ads",
+    "partenariat agence",
+    "formation freelance marketing",
+    "sous traitance seo tunisie"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "FRL"
+   ],
+   "about": "Marque blanche",
+   "mentions": [
+    "freelance",
+    "agence",
+    "clients étrangers"
+   ],
+   "schema": "WebPage + Service + FAQPage",
+   "inbound": "P00, F07",
+   "gap": "« sous-traitance seo » 140 + « marque blanche seo » 70/mois en France : c'est la demande du client français qui cherche un prestataire en Tunisie.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Agences françaises : un sous-traitant SEO et Google Ads en Tunisie",
+    "text": "Je travaille en sous-traitance, ou en marque blanche si vous le souhaitez, pour des agences et des freelances en France, depuis la Tunisie : vous gardez la relation client, je produis.",
+    "query": "sous traitance seo tunisie",
+    "link": "S00"
+   }
+  },
+  {
+   "id": "P06",
+   "label": "Startups",
+   "silo": "/pour/",
+   "url": "/pour/startups/",
+   "h1": "Startups labellisées : acquisition et automatisation dès le lancement",
+   "pageType": "Persona",
+   "primaryQuery": "marketing startup tunisie",
+   "queries": [
+    "startup act acquisition",
+    "growth startup tunisie",
+    "startup tunisie marketing"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "STA"
+   ],
+   "about": "Startup Act (Tunisie)",
+   "mentions": [
+    "Startup Act",
+    "carte technologique",
+    "SaaS"
+   ],
+   "schema": "WebPage + Service + FAQPage",
+   "inbound": "P00, S60",
+   "gap": "",
+   "priority": "P3",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Startups : un consultant acquisition en Tunisie",
+    "text": "Startup tunisienne ou française, je mets en place depuis la Tunisie une acquisition mesurée dès les premiers dinars ou euros dépensés.",
+    "query": "startup tunisie marketing",
+    "link": "S50"
+   }
+  },
+  {
+   "id": "F00",
+   "label": "Formations",
+   "silo": "/formations/",
+   "url": "/formations/",
+   "h1": "Formations SEO, GEO, Google Ads, Meta Ads et n8n : sessions, dates et prix",
+   "pageType": "Pilier (hub formations)",
+   "primaryQuery": "formation marketing digital tunisie",
+   "queries": [
+    "formation entreprise marketing digital",
+    "formateur marketing digital tunis"
+   ],
+   "cluster": "Formations",
+   "intent": "commerciale",
+   "personas": [
+    "MKT",
+    "FRL"
+   ],
+   "about": "Formation professionnelle",
+   "mentions": [
+    "CNFCPP",
+    "Skillshop",
+    "Tunis",
+    "en ligne"
+   ],
+   "schema": "CollectionPage + ItemList(Course) + BreadcrumbList",
+   "inbound": "Menu, accueil",
+   "gap": "WFR (sessions + prix) et WG (catalogue en ligne) existent ; aucun n'affiche le financement CNFCPP ni l'intra.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Des formations en Tunisie et en ligne depuis la France",
+    "text": "Les sessions en présentiel ont lieu en Tunisie ; les équipes en France suivent les mêmes contenus en ligne, en direct.",
+    "query": "formation marketing digital tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "F01",
+   "label": "Formation Google Ads",
+   "silo": "/formations/",
+   "url": "/formations/google-ads/",
+   "h1": "Formation Google Ads (2 à 3 jours) : de la structure du compte à la mesure",
+   "pageType": "Formation (Course)",
+   "primaryQuery": "formation google ads",
+   "queries": [
+    "formation google ads tunisie",
+    "formation google ads tunis",
+    "apprendre google ads",
+    "préparation certification google ads"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "MKT",
+    "FRL"
+   ],
+   "about": "Google Ads (Q271982)",
+   "mentions": [
+    "Skillshop",
+    "Performance Max",
+    "conversions"
+   ],
+   "schema": "Course + CourseInstance + Offer + FAQPage",
+   "inbound": "F00, S30, cluster Google Ads",
+   "gap": "WFR = 1er observé sur « formateur Google Ads », page pauvre (~5 000 car.). WG 2e. 720/mois en France (SERP Skillshop et cours gratuits) ; 10 en Tunisie. Sans Qualiopi, pas de financement CPF/OPCO en France : l'écrire sur la page.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Se former à Google Ads en Tunisie ou à distance",
+    "text": "La formation est donnée en Tunisie et en visio : un participant en France travaille sur son propre compte, comme en salle.",
+    "query": "formation google ads tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "F02",
+   "label": "Formation SEO",
+   "silo": "/formations/",
+   "url": "/formations/seo/",
+   "h1": "Formation SEO 2026 (2 jours) : technique, contenu, entités",
+   "pageType": "Formation (Course)",
+   "primaryQuery": "formation seo",
+   "queries": [
+    "formation seo tunisie",
+    "formation référencement naturel",
+    "formation seo tunis",
+    "apprendre le seo"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "MKT",
+    "FRL"
+   ],
+   "about": "Search engine optimization (Q180711)",
+   "mentions": [
+    "Search Console",
+    "Screaming Frog",
+    "données structurées"
+   ],
+   "schema": "Course + CourseInstance + Offer + FAQPage",
+   "inbound": "F00, S10",
+   "gap": "SEORank (devis), WFR /formation-seo-geo/ (680 DT), WG (40 h en ligne), Laabidi (450–1 200 TND), Saadi (2 000–2 500 DT). 1 600/mois en France, 50 en Tunisie. Demande française souvent en CPF (« formation seo cpf » 260) : préciser l'absence de Qualiopi.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Se former au SEO en Tunisie ou à distance",
+    "text": "Les sessions ont lieu en Tunisie et en ligne ; chaque participant, à Tunis ou en France, travaille sur son propre site.",
+    "query": "formation seo tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "F03",
+   "label": "Formation GEO",
+   "silo": "/formations/",
+   "url": "/formations/geo/",
+   "h1": "Formation GEO : être cité par les IA génératives (1 jour)",
+   "pageType": "Formation (Course)",
+   "primaryQuery": "formation geo",
+   "queries": [
+    "formation référencement ia",
+    "formation seo chatgpt",
+    "formation aeo",
+    "formation geo seo",
+    "formation seo geo",
+    "formation seo ia",
+    "formation generative engine optimization",
+    "formation geo tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "MKT",
+    "FRL",
+    "STA"
+   ],
+   "about": "Generative engine optimization",
+   "mentions": [
+    "ChatGPT",
+    "Perplexity",
+    "AI Overviews",
+    "llms.txt"
+   ],
+   "schema": "Course + CourseInstance + Offer + FAQPage",
+   "inbound": "F00, S20, cluster GEO",
+   "gap": "WG /formation-geo-aeo/ (en ligne, gabarit) ; WFR la fusionne avec le SEO. Aucune en présentiel/intra avec mesure. 320/mois en France.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Se former au référencement IA en Tunisie ou à distance",
+    "text": "Le GEO se pratique de la même façon partout : la formation est donnée en Tunisie et en visio, avec des exercices sur les IA de votre marché.",
+    "query": "formation geo tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "F04",
+   "label": "Formation Meta Ads",
+   "silo": "/formations/",
+   "url": "/formations/meta-ads/",
+   "h1": "Formation Meta Ads lead gen (1 jour)",
+   "pageType": "Formation (Course)",
+   "primaryQuery": "formation meta ads",
+   "queries": [
+    "formation facebook ads",
+    "formation facebook ads tunisie",
+    "formation publicité facebook instagram"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "MKT",
+    "FRL"
+   ],
+   "about": "Meta Ads",
+   "mentions": [
+    "Lead Ads",
+    "API Conversions",
+    "Advantage+"
+   ],
+   "schema": "Course + CourseInstance + Offer + FAQPage",
+   "inbound": "F00, S40",
+   "gap": "WFR /formation-meta-ads/ 680 DT ; GoMyCode bootcamp (certifs Meta). 260 + 210/mois en France.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Se former à Meta Ads en Tunisie ou à distance",
+    "text": "Du sponsoring Facebook tunisien aux campagnes de leads en France : la formation, en Tunisie ou en ligne, couvre les deux pratiques.",
+    "query": "formation facebook ads tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "F05",
+   "label": "Formation n8n + IA",
+   "silo": "/formations/",
+   "url": "/formations/n8n/",
+   "h1": "Formation n8n + IA pour le marketing (1 jour)",
+   "pageType": "Formation (Course)",
+   "primaryQuery": "formation n8n",
+   "queries": [
+    "formation automatisation marketing",
+    "formation agents ia marketing",
+    "formation n8n tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "MKT",
+    "FRL",
+    "STA"
+   ],
+   "about": "n8n",
+   "mentions": [
+    "API",
+    "webhooks",
+    "Claude",
+    "OpenAI",
+    "Google Sheets"
+   ],
+   "schema": "Course + CourseInstance + Offer + FAQPage",
+   "inbound": "F00, S60",
+   "gap": "0/18.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Se former à n8n en Tunisie ou à distance",
+    "text": "La formation n8n est donnée depuis la Tunisie, en salle ou en ligne : vous repartez avec vos propres workflows.",
+    "query": "formation n8n tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "F06",
+   "label": "Formation intra-entreprise",
+   "silo": "/formations/",
+   "url": "/formations/intra-entreprise/",
+   "h1": "Formation-action intra-entreprise, sur vos propres comptes",
+   "pageType": "Formation (service B2B)",
+   "primaryQuery": "formation intra entreprise marketing digital",
+   "queries": [
+    "formation sur mesure google ads entreprise",
+    "formation équipe marketing",
+    "formation intra entreprise tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "commerciale",
+   "personas": [
+    "MKT"
+   ],
+   "about": "Formation intra-entreprise",
+   "mentions": [
+    "CNFCPP",
+    "droits de tirage",
+    "TFP"
+   ],
+   "schema": "Service + Offer + FAQPage",
+   "inbound": "F00, F08, P00",
+   "gap": "0/18 avec financement affiché ; intra distincte de l'inter : absente partout.",
+   "priority": "P1",
+   "lock": "Agrément CNFCPP (en propre ou partenaire) requis",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Former votre équipe, en Tunisie ou dans vos locaux à distance",
+    "text": "Pour une entreprise tunisienne, la formation intra se fait sur place. Pour une équipe en France, elle se fait en visio, sur vos propres comptes.",
+    "query": "formation intra entreprise tunisie",
+    "link": "F08"
+   }
+  },
+  {
+   "id": "F07",
+   "label": "Cohorte en ligne",
+   "silo": "/formations/",
+   "url": "/formations/cohorte-en-ligne/",
+   "h1": "Cohorte en ligne « niveau international » pour freelances",
+   "pageType": "Formation (Course)",
+   "primaryQuery": "formation marketing digital en ligne",
+   "queries": [
+    "formation google ads en ligne",
+    "formation freelance clients étrangers",
+    "formation en ligne tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "FRL"
+   ],
+   "about": "Formation en ligne",
+   "mentions": [
+    "Zoom",
+    "Skillshop",
+    "clients étrangers"
+   ],
+   "schema": "Course + CourseInstance(courseMode online) + Offer",
+   "inbound": "F00, P05",
+   "gap": "",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Une cohorte en ligne qui réunit la Tunisie et la France",
+    "text": "La cohorte est animée depuis la Tunisie : les participants de Tunisie, de France et du Québec suivent les mêmes séances en direct.",
+    "query": "formation en ligne tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "F08",
+   "label": "Financement CNFCPP",
+   "silo": "/formations/",
+   "url": "/formations/financement-cnfcpp/",
+   "h1": "Financer votre formation par les droits de tirage du CNFCPP",
+   "pageType": "Article guide (formation)",
+   "primaryQuery": "tfp formation",
+   "queries": [
+    "droits de tirage cnfcpp",
+    "ristourne tfp",
+    "financement formation entreprise tunisie",
+    "financement formation tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "informationnelle",
+   "personas": [
+    "MKT"
+   ],
+   "about": "Centre National de Formation Continue et de Promotion Professionnelle (CNFCPP)",
+   "mentions": [
+    "TFP",
+    "droits de tirage",
+    "plan de formation"
+   ],
+   "schema": "Article + FAQPage + HowTo",
+   "inbound": "F00, F06",
+   "gap": "0/18 : aucun n'affiche le financement.",
+   "priority": "P2",
+   "lock": "Contenu à faire valider (règles CNFCPP)",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Financement : une page réservée aux entreprises tunisiennes",
+    "text": "Les droits de tirage CNFCPP et la TFP ne concernent que les entreprises établies en Tunisie. Une entreprise française passe par son propre budget formation.",
+    "query": "financement formation tunisie",
+    "link": "F06"
+   }
+  },
+  {
+   "id": "F09",
+   "label": "Calendrier des sessions",
+   "silo": "/formations/",
+   "url": "/formations/calendrier/",
+   "h1": "Calendrier des prochaines sessions (Tunis et en ligne)",
+   "pageType": "Événements",
+   "primaryQuery": "calendrier formation marketing digital tunis",
+   "queries": [
+    "session formation google ads",
+    "dates formation seo",
+    "calendrier formation tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "MKT",
+    "FRL"
+   ],
+   "about": "Sessions de formation",
+   "mentions": [
+    "Tunis",
+    "Sousse",
+    "Sfax",
+    "en ligne"
+   ],
+   "schema": "ItemList(Event / CourseInstance) + Offer",
+   "inbound": "F00, chaque Course",
+   "gap": "Seul à publier des dates.",
+   "priority": "P2",
+   "lock": "Dates réelles à fixer",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Sessions en Tunisie, sessions en ligne",
+    "text": "Chaque date indique si la session a lieu en Tunisie, en ligne, ou les deux : les horaires en ligne sont donnés à l'heure de Paris.",
+    "query": "calendrier formation tunisie",
+    "link": "F00"
+   }
+  },
+  {
+   "id": "C00",
+   "label": "Études de cas",
+   "silo": "/etudes-de-cas/",
+   "url": "/etudes-de-cas/",
+   "h1": "Études de cas (anonymisées) : problème, mesure, résultat",
+   "pageType": "Preuve (hub)",
+   "primaryQuery": "études de cas marketing digital",
+   "queries": [
+    "résultats clients seo",
+    "cas client google ads",
+    "étude de cas seo tunisie"
+   ],
+   "cluster": "Preuves",
+   "intent": "commerciale",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Études de cas",
+   "mentions": [],
+   "schema": "CollectionPage + ItemList(Article)",
+   "inbound": "Menu, accueil, pages services",
+   "gap": "Rapports SERP 06/10 : « pas de portfolio » = veto dur de l'évaluateur ; aucun consultant classé ne montre de cas chiffré.",
+   "priority": "P1",
+   "lock": "Aucun client nommé sans accord ; chiffres réels uniquement ; 2 cas anonymisés minimum au lancement",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Des résultats obtenus depuis la Tunisie",
+    "text": "Chaque étude de cas a été menée depuis la Tunisie et indique le marché du client : France, Québec ou Tunisie.",
+    "query": "étude de cas seo tunisie",
+    "link": "H06"
+   }
+  },
+  {
+   "id": "C01",
+   "label": "Conversions faussées",
+   "silo": "/etudes-de-cas/",
+   "url": "/etudes-de-cas/conversions-faussees-google-ads/",
+   "h1": "Quand 68 % des « conversions » n'étaient pas des clients",
+   "pageType": "Preuve (cas)",
+   "primaryQuery": "conversions google ads faussées",
+   "queries": [
+    "audit conversions google ads tunisie"
+   ],
+   "cluster": "Preuves",
+   "intent": "informationnelle",
+   "personas": [
+    "EXP",
+    "MKT"
+   ],
+   "about": "Conversion tracking",
+   "mentions": [
+    "Google Ads",
+    "GA4"
+   ],
+   "schema": "Article + Person (author)",
+   "inbound": "C00, S50, S31",
+   "gap": "",
+   "priority": "P1",
+   "lock": "Anonymisation à valider",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un diagnostic mené à distance depuis la Tunisie",
+    "text": "Le diagnostic a été fait depuis la Tunisie, avec un simple accès au compte : la même démarche s'applique à un compte français.",
+    "query": "audit conversions google ads tunisie",
+    "link": "S50"
+   }
+  },
+  {
+   "id": "T01",
+   "label": "Diagnostic visibilité IA",
+   "silo": "/outils/",
+   "url": "/outils/diagnostic-visibilite-ia/",
+   "h1": "Diagnostic gratuit : votre entreprise est-elle citée par ChatGPT ?",
+   "pageType": "Outil (lead magnet)",
+   "primaryQuery": "test visibilité chatgpt",
+   "queries": [
+    "mon entreprise apparaît-elle dans chatgpt",
+    "outil geo gratuit",
+    "outil geo",
+    "audit geo gratuit",
+    "outil visibilité ia tunisie"
+   ],
+   "cluster": "Outils",
+   "intent": "transactionnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Diagnostic GEO",
+   "mentions": [
+    "ChatGPT",
+    "Perplexity",
+    "Gemini"
+   ],
+   "schema": "WebApplication + FAQPage",
+   "inbound": "S20, S21, cluster GEO, accueil",
+   "gap": "WFR /audit-seo-ia-gratuit/ et WG /seo-analyzer/ existent : se distinguer par un vrai test multi-assistants.",
+   "priority": "P2",
+   "lock": "Outil à développer (ou formulaire + rapport manuel)",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un outil conçu en Tunisie, pour tous les marchés",
+    "text": "Le diagnostic interroge les IA dans la langue et le pays que vous choisissez : France, Québec ou Tunisie.",
+    "query": "outil visibilité ia tunisie",
+    "link": "S21"
+   }
+  },
+  {
+   "id": "R-G00",
+   "label": "Guide GEO",
+   "silo": "/ressources/geo/",
+   "url": "/ressources/geo/",
+   "h1": "GEO : le guide complet de la visibilité dans les IA génératives",
+   "pageType": "Pilier (guide)",
+   "primaryQuery": "generative engine optimization",
+   "queries": [
+    "référencement ia",
+    "geo c'est quoi",
+    "aeo",
+    "référencement ia définition",
+    "seo ia",
+    "seo pour ia",
+    "seo et ia",
+    "llmo",
+    "référencement llm",
+    "agent ia seo",
+    "guide geo tunisie"
+   ],
+   "cluster": "Cluster GEO",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Generative engine optimization",
+   "mentions": [
+    "LLM",
+    "RAG",
+    "ChatGPT",
+    "AI Overviews",
+    "Knowledge Graph"
+   ],
+   "schema": "Article + Person + FAQPage + BreadcrumbList",
+   "inbound": "S20, F03, articles du cluster",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Le GEO vu par un consultant en Tunisie",
+    "text": "Guide rédigé depuis la Tunisie par Majed Ayari, qui accompagne des entreprises en France et en Tunisie sur leur visibilité dans les IA.",
+    "query": "guide geo tunisie",
+    "link": "S20"
+   }
+  },
+  {
+   "id": "R-G01",
+   "label": "Apparaître dans ChatGPT",
+   "silo": "/ressources/geo/",
+   "url": "/ressources/geo/apparaitre-dans-chatgpt/",
+   "h1": "Comment faire apparaître son entreprise dans ChatGPT",
+   "pageType": "Article",
+   "primaryQuery": "référencement chatgpt",
+   "queries": [
+    "apparaître dans chatgpt",
+    "être recommandé par chatgpt",
+    "seo chatgpt",
+    "chatgpt seo",
+    "référencement sur chatgpt",
+    "référencement chatgpt tunisie"
+   ],
+   "cluster": "Cluster GEO",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "ChatGPT",
+   "mentions": [
+    "OpenAI",
+    "Bing",
+    "mentions de marque"
+   ],
+   "schema": "Article + Person + HowTo",
+   "inbound": "R-G00, S20, T01",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Être recommandé par ChatGPT, en France comme en Tunisie",
+    "text": "Les réponses de ChatGPT changent selon le pays et la langue : ce guide, écrit depuis la Tunisie, compare les deux marchés.",
+    "query": "référencement chatgpt tunisie",
+    "link": "S20"
+   }
+  },
+  {
+   "id": "R-G02",
+   "label": "SEO vs GEO",
+   "silo": "/ressources/geo/",
+   "url": "/ressources/geo/seo-vs-geo/",
+   "h1": "GEO et SEO : ce qui change vraiment, ce qui ne change pas",
+   "pageType": "Article",
+   "primaryQuery": "geo seo",
+   "queries": [
+    "geo vs seo",
+    "seo vs geo",
+    "seo et geo",
+    "aeo vs seo",
+    "seo geo",
+    "aeo vs geo",
+    "seo geo aeo",
+    "geo seo definition",
+    "seo geo tunisie"
+   ],
+   "cluster": "Cluster GEO",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Generative engine optimization",
+   "mentions": [
+    "SEO",
+    "AEO"
+   ],
+   "schema": "Article + Person",
+   "inbound": "R-G00, S10, S20",
+   "gap": "Atelier/Tunaffaires ont déjà un article : angle mesure chiffrée.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "SEO ou GEO : l'avis d'un consultant en Tunisie",
+    "text": "Article rédigé depuis la Tunisie par un consultant qui pratique les deux, pour des clients en France et en Tunisie.",
+    "query": "seo geo tunisie",
+    "link": "S20"
+   }
+  },
+  {
+   "id": "R-G03",
+   "label": "GEO en arabe",
+   "silo": "/ressources/geo/",
+   "url": "/ressources/geo/geo-en-arabe/",
+   "h1": "Visibilité IA en arabe : l'opportunité maghrébine",
+   "pageType": "Article",
+   "primaryQuery": "référencement ia arabe",
+   "queries": [
+    "seo arabe chatgpt",
+    "contenu arabe ia",
+    "référencement ia arabe tunisie"
+   ],
+   "cluster": "Cluster GEO",
+   "intent": "informationnelle",
+   "personas": [
+    "EXP",
+    "MKT"
+   ],
+   "about": "Langue arabe",
+   "mentions": [
+    "darija",
+    "arabe standard",
+    "ChatGPT"
+   ],
+   "schema": "Article + Person",
+   "inbound": "R-G00, version /ar/",
+   "gap": "Signal Reddit : « presque aucun contenu SEO sérieux en arabe ».",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Le GEO en arabe, depuis la Tunisie",
+    "text": "Ce guide part du terrain tunisien, où le français, l'arabe et le dialecte cohabitent dans les recherches.",
+    "query": "référencement ia arabe tunisie",
+    "link": "S20"
+   }
+  },
+  {
+   "id": "R-G04",
+   "label": "llms.txt",
+   "silo": "/ressources/geo/",
+   "url": "/ressources/geo/llms-txt/",
+   "h1": "llms.txt : utile ou pas ? Ce qu'on a mesuré",
+   "pageType": "Article",
+   "primaryQuery": "llms.txt",
+   "queries": [
+    "fichier llms.txt",
+    "llms.txt seo",
+    "llms.txt generator",
+    "llms.txt tunisie"
+   ],
+   "cluster": "Cluster GEO",
+   "intent": "informationnelle",
+   "personas": [
+    "FRL",
+    "STA"
+   ],
+   "about": "llms.txt",
+   "mentions": [
+    "robots.txt",
+    "crawlers IA",
+    "GPTBot"
+   ],
+   "schema": "Article + Person + HowTo",
+   "inbound": "R-G00, S21",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "llms.txt : un guide écrit depuis la Tunisie",
+    "text": "Rédigé par Majed Ayari, consultant en référencement IA qui travaille depuis la Tunisie pour des sites français et tunisiens.",
+    "query": "llms.txt tunisie",
+    "link": "S20"
+   }
+  },
+  {
+   "id": "R-A00",
+   "label": "Guide Google Ads",
+   "silo": "/ressources/google-ads/",
+   "url": "/ressources/google-ads/",
+   "h1": "Google Ads en Tunisie : le guide",
+   "pageType": "Pilier (guide)",
+   "primaryQuery": "guide google ads",
+   "queries": [
+    "publicité google",
+    "comment faire de la publicité sur google",
+    "guide google ads tunisie"
+   ],
+   "cluster": "Cluster Google Ads",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Google Ads (Q271982)",
+   "mentions": [
+    "Tunisie",
+    "dinar",
+    "Search",
+    "PMax"
+   ],
+   "schema": "Article + Person + FAQPage + BreadcrumbList",
+   "inbound": "S30, F01, articles du cluster",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Google Ads depuis la Tunisie",
+    "text": "Ce guide part de la réalité tunisienne (paiement en devises, petits budgets) et la compare aux comptes français que je gère.",
+    "query": "guide google ads tunisie",
+    "link": "N02"
+   }
+  },
+  {
+   "id": "R-A01",
+   "label": "Payer Google Ads depuis la Tunisie",
+   "silo": "/ressources/google-ads/",
+   "url": "/ressources/google-ads/payer-google-ads-depuis-la-tunisie/",
+   "h1": "Payer Google Ads depuis la Tunisie : carte technologique, plafonds, refus",
+   "pageType": "Article",
+   "primaryQuery": "payer google ads tunisie",
+   "queries": [
+    "carte technologique google ads",
+    "google ads carte refusée tunisie",
+    "paiement devises publicité"
+   ],
+   "cluster": "Cluster Google Ads",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Carte technologique internationale",
+   "mentions": [
+    "BCT",
+    "plafond",
+    "devises",
+    "Startup Act"
+   ],
+   "schema": "Article + Person + FAQPage + HowTo",
+   "inbound": "R-A00, S30, T02",
+   "gap": "Contrainte n°1 du marché ; seulement abordée chez Atelier.",
+   "priority": "P1",
+   "lock": "Plafonds à re-vérifier banque par banque, aucun contournement",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Le cas propre à la Tunisie",
+    "text": "Ce problème de paiement ne concerne que les annonceurs établis en Tunisie ; une entreprise française qui me confie son compte paie directement Google en euros.",
+    "query": "payer google ads tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "R-A02",
+   "label": "Prix de Google Ads",
+   "silo": "/ressources/google-ads/",
+   "url": "/ressources/google-ads/prix-google-ads/",
+   "h1": "Prix de Google Ads : budget, CPC et simulateur (France et Tunisie)",
+   "pageType": "Article",
+   "primaryQuery": "prix google ads",
+   "queries": [
+    "combien coûte google ads",
+    "budget google ads",
+    "cpc moyen",
+    "simulateur budget google ads",
+    "prix google ads tunisie"
+   ],
+   "cluster": "Cluster Google Ads",
+   "intent": "informationnelle",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Google Ads (Q271982)",
+   "mentions": [
+    "CPC",
+    "budget",
+    "honoraires"
+   ],
+   "schema": "Article + Person + FAQPage",
+   "inbound": "R-A00, H04, T02",
+   "gap": "Fusion de T02 (simulateur) : même intention de recherche.",
+   "priority": "P2",
+   "lock": "Données CPC réelles uniquement",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Prix de Google Ads : France et Tunisie comparées",
+    "text": "Les coûts par clic diffèrent fortement entre Google.fr et Google.tn : ce guide, écrit depuis la Tunisie, donne les deux.",
+    "query": "prix google ads tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "R-A03",
+   "label": "Google Ads ou Facebook Ads",
+   "silo": "/ressources/google-ads/",
+   "url": "/ressources/google-ads/google-ads-ou-facebook-ads/",
+   "h1": "Google Ads ou Facebook Ads en Tunisie ?",
+   "pageType": "Article",
+   "primaryQuery": "google ads ou facebook ads",
+   "queries": [
+    "google ads vs meta ads",
+    "quelle publicité choisir tunisie",
+    "google ads ou sponsoring facebook tunisie"
+   ],
+   "cluster": "Cluster Google Ads",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Google Ads (Q271982)",
+   "mentions": [
+    "Meta Ads",
+    "intention",
+    "StatCounter 93,9 %"
+   ],
+   "schema": "Article + Person",
+   "inbound": "R-A00, S30, S40",
+   "gap": "",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Google Ads ou Facebook en Tunisie et en France",
+    "text": "En Tunisie, le sponsoring Facebook domine ; en France, Google Ads reste le premier levier de leads. Ce comparatif, écrit depuis la Tunisie, couvre les deux marchés.",
+    "query": "google ads ou sponsoring facebook tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "R-A04",
+   "label": "Certification Google Ads",
+   "silo": "/ressources/google-ads/",
+   "url": "/ressources/google-ads/certification-google-ads/",
+   "h1": "Certification Google Ads (Skillshop) : comment la préparer",
+   "pageType": "Article",
+   "primaryQuery": "certification google ads",
+   "queries": [
+    "skillshop google ads",
+    "examen google ads",
+    "certification google ads tunisie"
+   ],
+   "cluster": "Cluster Google Ads",
+   "intent": "informationnelle",
+   "personas": [
+    "FRL"
+   ],
+   "about": "Google Skillshop",
+   "mentions": [
+    "certification",
+    "examen"
+   ],
+   "schema": "Article + Person + HowTo",
+   "inbound": "R-A00, F01, F07",
+   "gap": "Répond à « les attestations privées ne valent rien ».",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Passer la certification Google Ads depuis la Tunisie",
+    "text": "La certification Skillshop est la même partout ; ce guide, rédigé depuis la Tunisie, signale ce qui change pour un candidat tunisien.",
+    "query": "certification google ads tunisie",
+    "link": "F01"
+   }
+  },
+  {
+   "id": "R-A05",
+   "label": "Google Ads sans conversion",
+   "silo": "/ressources/google-ads/",
+   "url": "/ressources/google-ads/zero-conversion/",
+   "h1": "Pourquoi votre Google Ads dépense sans convertir",
+   "pageType": "Article",
+   "primaryQuery": "google ads pas de conversion",
+   "queries": [
+    "google ads ne marche pas",
+    "budget gaspillé google ads",
+    "google ads pas de conversion tunisie"
+   ],
+   "cluster": "Cluster Google Ads",
+   "intent": "informationnelle",
+   "personas": [
+    "EXP",
+    "STA",
+    "MKT"
+   ],
+   "about": "Google Ads (Q271982)",
+   "mentions": [
+    "conversions",
+    "termes de recherche",
+    "négatifs"
+   ],
+   "schema": "Article + Person",
+   "inbound": "R-A00, S31, S50",
+   "gap": "",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Zéro conversion : un problème que je corrige depuis la Tunisie",
+    "text": "Je diagnostique ce type de compte à distance depuis la Tunisie, pour des annonceurs en France comme en Tunisie.",
+    "query": "google ads pas de conversion tunisie",
+    "link": "S31"
+   }
+  },
+  {
+   "id": "R-M01",
+   "label": "Vérifier ses conversions",
+   "silo": "/ressources/mesure/",
+   "url": "/ressources/mesure/conversions-ga4-google-ads/",
+   "h1": "Vérifier que vos conversions sont de vrais clients",
+   "pageType": "Article",
+   "primaryQuery": "vérifier conversions google ads",
+   "queries": [
+    "conversions secondaires",
+    "ga4 conversions",
+    "itinéraires conversions",
+    "conversions ga4 tunisie"
+   ],
+   "cluster": "Cluster Mesure",
+   "intent": "informationnelle",
+   "personas": [
+    "MKT",
+    "EXP"
+   ],
+   "about": "Conversion tracking",
+   "mentions": [
+    "GA4",
+    "Google Tag Manager",
+    "Consent Mode"
+   ],
+   "schema": "Article + Person + HowTo",
+   "inbound": "S50, C01",
+   "gap": "",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Vérifier ses conversions avec un consultant en Tunisie",
+    "text": "Guide rédigé depuis la Tunisie à partir de comptes réels, français et tunisiens.",
+    "query": "conversions ga4 tunisie",
+    "link": "S50"
+   }
+  },
+  {
+   "id": "R-T01",
+   "label": "Leads Meta vers WhatsApp",
+   "silo": "/ressources/meta-ads/",
+   "url": "/ressources/meta-ads/leads-meta-whatsapp/",
+   "h1": "Meta Lead Ads : envoyer les leads sur WhatsApp en 5 minutes",
+   "pageType": "Article",
+   "primaryQuery": "facebook lead ads whatsapp",
+   "queries": [
+    "leads facebook vers whatsapp",
+    "formulaire instantané meta",
+    "leads facebook whatsapp tunisie"
+   ],
+   "cluster": "Cluster Meta Ads",
+   "intent": "informationnelle",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Meta Ads",
+   "mentions": [
+    "WhatsApp Business",
+    "n8n",
+    "formulaire instantané"
+   ],
+   "schema": "Article + Person + HowTo",
+   "inbound": "S40, S60",
+   "gap": "",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Les leads WhatsApp, un réflexe tunisien",
+    "text": "En Tunisie, le prospect préfère WhatsApp au formulaire ; ce guide, écrit depuis la Tunisie, montre aussi quand l'appliquer en France.",
+    "query": "leads facebook whatsapp tunisie",
+    "link": "S40"
+   }
+  },
+  {
+   "id": "R-N01",
+   "label": "Reporting Google Ads avec n8n",
+   "silo": "/ressources/automatisation/",
+   "url": "/ressources/automatisation/n8n-reporting-google-ads/",
+   "h1": "Automatiser son reporting Google Ads avec n8n",
+   "pageType": "Article",
+   "primaryQuery": "n8n google ads",
+   "queries": [
+    "reporting automatique google ads",
+    "n8n marketing",
+    "reporting n8n tunisie"
+   ],
+   "cluster": "Cluster Automatisation",
+   "intent": "informationnelle",
+   "personas": [
+    "FRL",
+    "MKT"
+   ],
+   "about": "n8n",
+   "mentions": [
+    "Google Ads API",
+    "Slack",
+    "Google Sheets",
+    "Claude"
+   ],
+   "schema": "Article + Person + HowTo",
+   "inbound": "S60, F05",
+   "gap": "",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un reporting automatisé construit en Tunisie",
+    "text": "Le workflow présenté tourne pour des clients en France et en Tunisie ; je le construis depuis la Tunisie.",
+    "query": "reporting n8n tunisie",
+    "link": "S60"
+   }
+  },
+  {
+   "id": "R-S01",
+   "label": "Prix du SEO",
+   "silo": "/ressources/seo/",
+   "url": "/ressources/seo/prix-seo/",
+   "h1": "Prix du SEO en 2026 : ce que coûte un consultant en France et en Tunisie",
+   "pageType": "Article",
+   "primaryQuery": "tarif référencement naturel",
+   "queries": [
+    "prix seo",
+    "coût seo mensuel",
+    "prix seo tunisie"
+   ],
+   "cluster": "Cluster SEO",
+   "intent": "informationnelle",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Search engine optimization (Q180711)",
+   "mentions": [
+    "honoraires",
+    "audit",
+    "netlinking"
+   ],
+   "schema": "Article + Person + FAQPage",
+   "inbound": "S10, H04",
+   "gap": "",
+   "priority": "P3",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Prix du SEO : en France ou chez un consultant en Tunisie",
+    "text": "Ce guide compare les tarifs pratiqués en France et en Tunisie, et ce qui justifie l'écart.",
+    "query": "prix seo tunisie",
+    "link": "S10"
+   }
+  },
+  {
+   "id": "R-00",
+   "label": "Ressources",
+   "silo": "/ressources/",
+   "url": "/ressources/",
+   "h1": "Ressources : guides SEO, référencement IA, Google Ads, Meta Ads et automatisation",
+   "pageType": "Pilier (hub ressources)",
+   "primaryQuery": "guides marketing digital tunisie",
+   "queries": [
+    "blog seo google ads tunisie",
+    "blog seo tunisie"
+   ],
+   "cluster": "Ressources",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Guides",
+   "mentions": [],
+   "schema": "CollectionPage + ItemList(Article) + BreadcrumbList",
+   "inbound": "Menu, pied de page",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Des guides écrits depuis la Tunisie",
+    "text": "Ces guides sont rédigés depuis la Tunisie par un consultant qui gère des comptes en France et au Québec : chaque exemple précise le marché concerné.",
+    "query": "blog seo tunisie",
+    "link": "S00"
+   }
+  },
+  {
+   "id": "H06",
+   "label": "Avis",
+   "silo": "/",
+   "url": "/avis/",
+   "h1": "Avis clients et participants aux formations",
+   "pageType": "Preuve (avis)",
+   "primaryQuery": "majed ayari avis",
+   "queries": [
+    "avis formation google ads",
+    "avis consultant seo",
+    "avis consultant seo tunisie"
+   ],
+   "cluster": "Marque & consultant",
+   "intent": "navigationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Majed Ayari (Person)",
+   "mentions": [
+    "Google Business Profile",
+    "LinkedIn"
+   ],
+   "schema": "WebPage + Review (itemReviewed Person/Course) ; AggregateRating seulement si avis réels et sourcés",
+   "inbound": "Pied de page, H02, pages formation",
+   "gap": "Seul Amdouni balise une note, sans page avis. Rapports 06/10 : aucun consultant classé n'a d'avis tiers visibles ; c'est le critère qui fait basculer la recommandation.",
+   "priority": "P2",
+   "lock": "2 avis Google (5,0) : lier la fiche ; ne pas baliser d'AggregateRating sur ses propres avis (non éligible) ; collecte d'avis à lancer",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Des avis de clients en France, au Québec et en Tunisie",
+    "text": "Chaque avis indique le pays du client : vous voyez comment un accompagnement mené depuis la Tunisie se passe pour une entreprise comme la vôtre.",
+    "query": "avis consultant seo tunisie",
+    "link": "C00"
+   }
+  },
+  {
+   "id": "R-C01",
+   "label": "Freelance ou agence",
+   "silo": "/ressources/choisir/",
+   "url": "/ressources/choisir/freelance-ou-agence-seo/",
+   "h1": "Freelance ou agence SEO/Google Ads : comment choisir",
+   "pageType": "Article comparatif",
+   "primaryQuery": "freelance ou agence seo",
+   "queries": [
+    "consultant ou agence google ads",
+    "choisir agence marketing digital tunisie",
+    "freelance ou agence en tunisie"
+   ],
+   "cluster": "Cluster Choisir un prestataire",
+   "intent": "commerciale",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Prestataire marketing digital",
+   "mentions": [
+    "agence",
+    "freelance",
+    "garanties",
+    "contrat"
+   ],
+   "schema": "Article + Person + FAQPage",
+   "inbound": "H03, accueil, S00",
+   "gap": "Pages comparatives absentes chez les Tunisiens (modèle paulvengeons.fr).",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Freelance, agence… ou prestataire en Tunisie",
+    "text": "Une troisième option pour une entreprise française : un consultant indépendant qui travaille depuis la Tunisie. Ce guide en donne les avantages et les limites.",
+    "query": "freelance ou agence en tunisie",
+    "link": "P07"
+   }
+  },
+  {
+   "id": "R-C02",
+   "label": "Agences à éviter",
+   "silo": "/ressources/choisir/",
+   "url": "/ressources/choisir/arnaques-agences-marketing/",
+   "h1": "Les signaux d'une agence à éviter (garanties, compte confisqué…)",
+   "pageType": "Article",
+   "primaryQuery": "arnaque agence seo",
+   "queries": [
+    "garantie première position google",
+    "agence garde compte google ads",
+    "agence offshore tunisie"
+   ],
+   "cluster": "Cluster Choisir un prestataire",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Prestataire marketing digital",
+   "mentions": [
+    "garantie",
+    "propriété du compte"
+   ],
+   "schema": "Article + Person",
+   "inbound": "R-C01, H03",
+   "gap": "Objections Reddit r/smallbusiness, r/PPC.",
+   "priority": "P3",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Prestataire offshore : les signaux d'alerte",
+    "text": "Travailler avec un prestataire en Tunisie n'est pas un risque en soi ; les signaux d'alerte sont les mêmes qu'avec une agence française. Guide écrit depuis la Tunisie.",
+    "query": "agence offshore tunisie",
+    "link": "R-C01"
+   }
+  },
+  {
+   "id": "T03",
+   "label": "Modèles gratuits",
+   "silo": "/outils/",
+   "url": "/outils/modeles/",
+   "h1": "Modèles gratuits : checklist GEO, grille d'audit Google Ads, plan de taggage",
+   "pageType": "Outil (lead magnet)",
+   "primaryQuery": "plan de taggage",
+   "queries": [
+    "modèle plan de taggage ga4",
+    "checklist audit google ads",
+    "modèle audit seo gratuit",
+    "checklist geo",
+    "modèle audit seo tunisie"
+   ],
+   "cluster": "Outils",
+   "intent": "transactionnelle",
+   "personas": [
+    "FRL",
+    "MKT"
+   ],
+   "about": "Modèles téléchargeables",
+   "mentions": [
+    "Google Sheets",
+    "GA4"
+   ],
+   "schema": "CollectionPage + DigitalDocument",
+   "inbound": "Ressources, F00, pied de page",
+   "gap": "Aucun lead magnet téléchargeable chez les Tunisiens (modèle vincenthego.com).",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Des modèles utilisés dans mes missions depuis la Tunisie",
+    "text": "Ce sont les modèles que j'utilise pour mes clients en France et en Tunisie, vidés de leurs données.",
+    "query": "modèle audit seo tunisie",
+    "link": "H05"
+   }
+  },
+  {
+   "id": "F10",
+   "label": "Coaching individuel",
+   "silo": "/formations/",
+   "url": "/formations/coaching-individuel/",
+   "h1": "Coaching individuel Google Ads, SEO ou GEO (à l'heure)",
+   "pageType": "Formation (service)",
+   "primaryQuery": "coaching seo",
+   "queries": [
+    "coaching google ads",
+    "accompagnement seo",
+    "coaching seo tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "FRL",
+    "STA"
+   ],
+   "about": "Coaching",
+   "mentions": [
+    "visio",
+    "compte du client"
+   ],
+   "schema": "Service + Offer",
+   "inbound": "F00, P05",
+   "gap": "Modèle paulvengeons.fr /coaching-seo/ ; absent en Tunisie.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un coaching individuel depuis la Tunisie",
+    "text": "Les séances se font en visio depuis la Tunisie, aux heures qui vous conviennent, que vous soyez en France, au Québec ou en Tunisie.",
+    "query": "coaching seo tunisie",
+    "link": "F00"
+   }
+  },
+  {
+   "id": "N01",
+   "label": "Tunisie",
+   "silo": "/tunisie/",
+   "url": "/tunisie/",
+   "h1": "Consultant SEO en Tunisie : référencement naturel et IA pour les entreprises tunisiennes",
+   "pageType": "Service (marché Tunisie)",
+   "primaryQuery": "consultant seo tunisie",
+   "queries": [
+    "seo tunisie",
+    "référencement naturel tunisie",
+    "expert seo tunisie",
+    "consultant seo hammamet"
+   ],
+   "cluster": "Tunisie",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA",
+    "MKT"
+   ],
+   "about": "Search engine optimization (Q180711)",
+   "mentions": [
+    "Tunisie",
+    "Hammamet",
+    "Google.tn",
+    "dinar tunisien"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "Accueil, S10, pied de page",
+   "gap": "DataForSEO 05/10 : 320/mois + « agence seo tunisie » 720. Rapport SERP 06/10 : top 3 = consultants nommés (Salhi, Guezmir, Ben Jamaa).",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Vous êtes en France et cherchez un consultant SEO en Tunisie ?",
+    "text": "Cette page s'adresse d'abord aux entreprises tunisiennes. Si vous êtes en France, la même méthode s'applique à votre site sur Google.fr : je travaille depuis Hammamet, en français, à une heure de Paris au plus.",
+    "query": "consultant seo hammamet",
+    "link": "S10"
+   }
+  },
+  {
+   "id": "N04",
+   "label": "Agence SEO en Tunisie",
+   "silo": "/tunisie/",
+   "url": "/tunisie/agence-seo/",
+   "h1": "Agence SEO en Tunisie ou consultant : traiter directement avec celui qui fait le travail",
+   "pageType": "Service (marché Tunisie)",
+   "primaryQuery": "agence seo tunisie",
+   "queries": [
+    "agence référencement tunisie",
+    "agence référencement naturel tunisie",
+    "agence seo tunis",
+    "meilleure agence seo tunisie",
+    "agence seo tunisie pour entreprise française"
+   ],
+   "cluster": "Tunisie",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA",
+    "MKT"
+   ],
+   "about": "Search engine optimization (Q180711)",
+   "mentions": [
+    "Tunisie",
+    "Hammamet",
+    "agence",
+    "consultant indépendant"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "N01, S10, R-C01, accueil",
+   "gap": "DataForSEO 05/10 : 720/mois en Tunisie (CPC 14,65 $), 40 depuis la France. SERP = agences + un consultant (houssemsaadi.tn, 5e) : un indépendant peut y entrer. Ne pas se présenter comme une agence : comparer honnêtement les deux modèles.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "En France et cherchez une agence SEO en Tunisie ?",
+    "text": "Je ne suis pas une agence : vous travaillez directement avec moi, depuis Hammamet, sans intermédiaire ni chef de projet. Pour une entreprise française, la mesure se fait sur Google.fr, dans votre propre Search Console.",
+    "query": "agence seo tunisie pour entreprise française",
+    "link": "S10"
+   }
+  },
+  {
+   "id": "N02",
+   "label": "Google Ads en Tunisie",
+   "silo": "/tunisie/",
+   "url": "/tunisie/google-ads/",
+   "h1": "Consultant Google Ads en Tunisie : des campagnes rentables malgré le paiement en devises",
+   "pageType": "Service (marché Tunisie)",
+   "primaryQuery": "consultant google ads tunisie",
+   "queries": [
+    "google ads tunisie",
+    "agence google ads tunisie",
+    "publicité google tunisie",
+    "gestion google ads depuis la tunisie"
+   ],
+   "cluster": "Tunisie",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Google Ads (Q271982)",
+   "mentions": [
+    "carte technologique",
+    "dinar tunisien",
+    "Google.tn"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "N01, S30, R-A01",
+   "gap": "Rapport SERP 06/10 : 10/10 agences, annuaires ou plateformes, aucun consultant nommé.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Annonceur en France ? Le paiement en devises ne vous concerne pas",
+    "text": "Les contraintes de carte technologique ne touchent que les annonceurs établis en Tunisie. Pour une entreprise française, je gère le compte depuis la Tunisie et vous payez Google directement en euros.",
+    "query": "gestion google ads depuis la tunisie",
+    "link": "S30"
+   }
+  },
+  {
+   "id": "N03",
+   "label": "Sponsoring Facebook en Tunisie",
+   "silo": "/tunisie/",
+   "url": "/tunisie/sponsoring-facebook/",
+   "h1": "Sponsoring Facebook en Tunisie : des prospects, pas seulement des mentions J'aime",
+   "pageType": "Service (marché Tunisie)",
+   "primaryQuery": "sponsoring facebook tunisie",
+   "queries": [
+    "prix sponsoring facebook tunisie",
+    "publicité facebook tunisie",
+    "agence sponsoring facebook tunisie"
+   ],
+   "cluster": "Tunisie",
+   "intent": "commerciale",
+   "personas": [
+    "EXP",
+    "STA"
+   ],
+   "about": "Meta Ads",
+   "mentions": [
+    "Facebook",
+    "Instagram",
+    "WhatsApp",
+    "dinar tunisien"
+   ],
+   "schema": "Service + Offer + FAQPage + BreadcrumbList",
+   "inbound": "N01, S40",
+   "gap": "DataForSEO 05/10 : 90 + 20 + 20/mois.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Le sponsoring tunisien, les campagnes de leads en France",
+    "text": "Je pilote depuis la Tunisie le sponsoring Facebook des entreprises tunisiennes et les campagnes de génération de leads Meta pour la France.",
+    "query": "agence sponsoring facebook tunisie",
+    "link": "S40"
+   }
+  },
+  {
+   "id": "P07",
+   "label": "Entreprises françaises et canadiennes",
+   "silo": "/pour/",
+   "url": "/pour/entreprises-francaises-canadiennes/",
+   "h1": "Externaliser son SEO et son Google Ads en Tunisie : un consultant senior, francophone, à une heure de Paris",
+   "pageType": "Persona (offre nearshore)",
+   "primaryQuery": "freelance tunisie",
+   "queries": [
+    "externalisation seo",
+    "externalisation marketing digital",
+    "prestataire seo tunisie",
+    "seo offshore",
+    "nearshore tunisie",
+    "agence web offshore tunisie",
+    "consultant marketing digital tunisie pour entreprise française"
+   ],
+   "cluster": "ICP",
+   "intent": "commerciale",
+   "personas": [
+    "FRC"
+   ],
+   "about": "Externalisation du marketing digital",
+   "mentions": [
+    "Tunisie",
+    "France",
+    "Canada",
+    "décalage horaire",
+    "EUR",
+    "CAD",
+    "propriété des comptes"
+   ],
+   "schema": "WebPage + Service + FAQPage + BreadcrumbList",
+   "inbound": "Accueil (hero), P00, N01, N04, encarts Tunisie, H04",
+   "gap": "DataForSEO 06/10 (France) : « freelance tunisie » 90, « externalisation seo » 10, « seo offshore » 20 ; la demande passe surtout par les IA, les plateformes et LinkedIn. Sections : coût comparé à la France et au Québec, décalage horaire, langue, contrat et facturation (EUR, CAD), propriété des comptes, preuves (SEO CAMP, Rocketlinks, CNFSE), FAQ.",
+   "priority": "P1",
+   "lock": "Grille tarifaire EUR/CAD à fournir pour la section « coût »",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Pourquoi un consultant en Tunisie plutôt qu'en France ?",
+    "text": "Même langue, au plus une heure de décalage avec Paris, des comptes qui restent à votre nom, et la structure de coûts d'un consultant installé à Hammamet. Pour le Canada, les points d'étape se calent sur les heures du Québec.",
+    "query": "consultant marketing digital tunisie pour entreprise française",
+    "link": "H05"
+   }
+  },
+  {
+   "id": "R-G05",
+   "label": "Google AI Overviews",
+   "silo": "/ressources/geo/",
+   "url": "/ressources/geo/google-ai-overviews/",
+   "h1": "Google AI Overviews : comment y apparaître (et ce qu'elles changent pour votre trafic)",
+   "pageType": "Article pivot",
+   "primaryQuery": "google ai overview",
+   "queries": [
+    "ai overview",
+    "ai overview seo",
+    "ai overview c'est quoi",
+    "ai overview google france",
+    "ai overview tunisie"
+   ],
+   "cluster": "Cluster GEO",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Google AI Overviews",
+   "mentions": [
+    "Google Search",
+    "Gemini",
+    "citations",
+    "trafic organique"
+   ],
+   "schema": "Article + Person + FAQPage",
+   "inbound": "R-G00, S20, S21",
+   "gap": "DataForSEO 06/10 : « ai overview » 2 900 + « google ai overview » 1 000 en France, 9 900 au Canada, 110 en Tunisie.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Les AI Overviews en France et en Tunisie",
+    "text": "Guide rédigé depuis la Tunisie : les AI Overviews ne s'affichent pas de la même façon selon le pays et la langue, et je les suis sur les deux marchés.",
+    "query": "ai overview tunisie",
+    "link": "S21"
+   }
+  },
+  {
+   "id": "R-G06",
+   "label": "Google AI Mode",
+   "silo": "/ressources/geo/",
+   "url": "/ressources/geo/google-ai-mode/",
+   "h1": "Google AI Mode : ce que le mode IA de Google change pour la visibilité des entreprises",
+   "pageType": "Article",
+   "primaryQuery": "google ai mode",
+   "queries": [
+    "ai mode google",
+    "mode ai google",
+    "google ai mode france",
+    "google ai mode tunisie"
+   ],
+   "cluster": "Cluster GEO",
+   "intent": "informationnelle",
+   "personas": [
+    "ALL"
+   ],
+   "about": "Google AI Mode",
+   "mentions": [
+    "Google Search",
+    "Gemini",
+    "requêtes conversationnelles"
+   ],
+   "schema": "Article + Person + FAQPage",
+   "inbound": "R-G00, R-G05, S20",
+   "gap": "DataForSEO 06/10 : 1 900 + 1 300 en France, 33 100 + 8 100 au Canada, 320 + 390 en Tunisie.",
+   "priority": "P2",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "AI Mode : suivi depuis la Tunisie",
+    "text": "Le mode IA de Google arrive par vagues selon les pays : ce guide, écrit depuis la Tunisie, précise ce qui est disponible en France et en Tunisie.",
+    "query": "google ai mode tunisie",
+    "link": "S20"
+   }
+  },
+  {
+   "id": "F11",
+   "label": "Formation IA",
+   "silo": "/formations/",
+   "url": "/formations/intelligence-artificielle/",
+   "h1": "Formation IA en entreprise : ChatGPT, agents et automatisation pour le marketing",
+   "pageType": "Formation",
+   "primaryQuery": "formation ia entreprise",
+   "queries": [
+    "formation chatgpt entreprise",
+    "formation intelligence artificielle tunisie",
+    "formation ia tunisie"
+   ],
+   "cluster": "Formations",
+   "intent": "transactionnelle",
+   "personas": [
+    "MKT",
+    "STA"
+   ],
+   "about": "Intelligence artificielle générative",
+   "mentions": [
+    "ChatGPT",
+    "n8n",
+    "agents IA"
+   ],
+   "schema": "Course + Offer + FAQPage",
+   "inbound": "F00, F05, S60",
+   "gap": "DataForSEO 05/10 : 480 FR (KD 9) + 70 TN.",
+   "priority": "P3",
+   "lock": "Contenu de l'offre à confirmer",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Une formation IA donnée en Tunisie et en ligne",
+    "text": "Sessions en entreprise en Tunisie, ou en visio pour les équipes en France et au Québec.",
+    "query": "formation ia tunisie",
+    "link": "F09"
+   }
+  },
+  {
+   "id": "C02",
+   "label": "Étude de cas SEO · habilitations-electrique.fr",
+   "silo": "/etudes-de-cas/",
+   "url": "/etudes-de-cas/seo-habilitation-electrique/",
+   "h1": "SEO : +63 % de clics en un an pour habilitations-electrique.fr (CNFSE)",
+   "pageType": "Preuve (cas)",
+   "primaryQuery": "étude de cas seo",
+   "queries": [
+    "cas client seo organisme de formation",
+    "résultats seo contenu informationnel",
+    "consultant seo tunisie pour la france"
+   ],
+   "cluster": "Preuves",
+   "intent": "commerciale",
+   "personas": [
+    "MKT",
+    "EXP"
+   ],
+   "about": "Search engine optimization (Q180711)",
+   "mentions": [
+    "CNFSE",
+    "habilitation électrique",
+    "NF C 18-510",
+    "Google Search Console"
+   ],
+   "schema": "Article + Person (author) + Organization (about)",
+   "inbound": "C00, S10, accueil",
+   "gap": "Chiffres Search Console via Windsor, sept. 2025 vs sept. 2026.",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette",
+   "tunisie": {
+    "title": "Un accompagnement SEO mené depuis la Tunisie pour un organisme français",
+    "text": "Ce site français est suivi depuis la Tunisie : la distance n'a rien changé à la mesure, faite dans la Search Console du client.",
+    "query": "consultant seo tunisie pour la france",
+    "link": "S10"
+   }
+  },
+  {
+   "id": "L01",
+   "label": "Mentions légales",
+   "silo": "/",
+   "url": "/mentions-legales/",
+   "h1": "Mentions légales",
+   "pageType": "Légal",
+   "primaryQuery": "",
+   "queries": [],
+   "cluster": "Légal",
+   "intent": "",
+   "personas": [],
+   "about": "",
+   "mentions": [],
+   "schema": "WebPage",
+   "inbound": "Pied de page",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette"
+  },
+  {
+   "id": "L02",
+   "label": "Politique de confidentialité",
+   "silo": "/",
+   "url": "/confidentialite/",
+   "h1": "Politique de confidentialité",
+   "pageType": "Légal",
+   "primaryQuery": "",
+   "queries": [],
+   "cluster": "Légal",
+   "intent": "",
+   "personas": [],
+   "about": "",
+   "mentions": [],
+   "schema": "WebPage",
+   "inbound": "Pied de page",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette"
+  },
+  {
+   "id": "L03",
+   "label": "Conditions générales des formations",
+   "silo": "/",
+   "url": "/conditions-generales-formation/",
+   "h1": "Conditions générales des formations",
+   "pageType": "Légal",
+   "primaryQuery": "",
+   "queries": [],
+   "cluster": "Légal",
+   "intent": "",
+   "personas": [],
+   "about": "",
+   "mentions": [],
+   "schema": "WebPage",
+   "inbound": "Pied de page",
+   "gap": "",
+   "priority": "P1",
+   "lock": "",
+   "status": "squelette"
+  }
+ ]
+}

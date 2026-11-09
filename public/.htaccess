@@ -1,0 +1,15 @@
+# majed-ayari.com — hébergement Apache (export statique Next.js)
+RewriteEngine On
+
+# Une seule adresse : https://majed-ayari.com (sans www), comme les balises canonical et le JSON-LD
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://majed-ayari.com%{REQUEST_URI} [L,R=301]
+
+# Page 404 du site
+ErrorDocument 404 /404.html
+
+# llms.txt servi en texte UTF-8
+<Files "llms.txt">
+  ForceType "text/plain; charset=utf-8"
+</Files>
