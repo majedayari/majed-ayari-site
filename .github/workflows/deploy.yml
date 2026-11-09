@@ -43,7 +43,16 @@ jobs:
           test -f out/sitemap.xml
           echo "$(find out -type f | wc -l) fichiers dans out/"
 
+      - name: Secrets de déploiement présents ?
+        id: cfg
+        env:
+          HOST: ${{ secrets.O2_HOST }}
+          KEY: ${{ secrets.O2_SSH_KEY }}
+        run: |
+          if [ -n "$HOST" ] && [ -n "$KEY" ]; then echo "ok=true" >> $GITHUB_OUTPUT; else echo "::warning::Secrets O2_* absents : build seulement, pas d'envoi."; fi
+
       - name: Clé SSH et empreinte du serveur
+        if: steps.cfg.outputs.ok == 'true'
         env:
           SSH_KEY: ${{ secrets.O2_SSH_KEY }}
           SSH_HOST: ${{ secrets.O2_HOST }}
@@ -55,6 +64,7 @@ jobs:
           ssh-keyscan -p "${SSH_PORT:-22}" -H "$SSH_HOST" >> ~/.ssh/known_hosts
 
       - name: Envoi sur O2switch (rsync)
+        if: steps.cfg.outputs.ok == 'true'
         env:
           SSH_HOST: ${{ secrets.O2_HOST }}
           SSH_USER: ${{ secrets.O2_USER }}
@@ -67,7 +77,7 @@ jobs:
             /home/*/*) ;;
             *) echo "O2_PATH doit être un chemin absolu du type /home/compte/public_html"; exit 1 ;;
           esac
-          OPTS="-rltvz --delete --omit-dir-times --exclude=.well-known/ --exclude=cgi-bin/ --exclude=.htpasswd"
+          OPTS="-rltvz --delete --omit-dir-times --exclude=/.well-known/ --exclude=/cgi-bin/ --exclude=/.htpasswd --exclude=/entities/"
           if [ "$DRY_RUN" = "true" ]; then OPTS="$OPTS --dry-run"; echo "MODE SIMULATION"; fi
           rsync $OPTS \
             -e "ssh -i ~/.ssh/deploy_key -p ${SSH_PORT:-22}" \
