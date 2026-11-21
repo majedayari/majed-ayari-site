@@ -9,15 +9,15 @@ import {
 export const SITE = {
   photo: "/majed-ayari.jpg", // portrait fourni le 06/10/2026 (400 × 400), même photo que la fiche Google
   name: "Majed Ayari",
-  role: "Consultant SEO, GEO, Google Ads & Meta Ads",
+  role: "Agence SEO, Google Ads, Meta Ads & visibilité IA",
   email: "majedayari@gmail.com",
   phone: "418 473-6898",
   phoneE164: "+14184736898",
   url: "https://majed-ayari.com",
-  tagline: "Arrêtez de choisir entre visibilité et rentabilité.",
-  zones: "Basé en Tunisie · Clients en France et au Canada",
+  tagline: "On compte les demandes, pas les clics.",
+  zones: "L’agence d’acquisition des PME québécoises",
   /** Phrase de positionnement géographique, reprise dans le pied de page et le contact. */
-  workFrom: "Je travaille depuis la Tunisie (Hammamet) et le Canada (Scott, Québec), pour des entreprises en France, au Canada et en Tunisie.",
+  workFrom: "Nous travaillons depuis Scott (Québec), pour des PME de tout le Québec.",
   calendly: "/contact/",
 };
 
@@ -164,7 +164,7 @@ export type Stat = { value: number; suffix: string; prefix?: string; label: stri
 
 export const ABOUT_STATS: Stat[] = [
   { value: 5, suffix: "+", label: "Secteurs accompagnés" },
-  { value: 3, suffix: "", label: "Pays : QC, France, Tunisie" },
+  { value: 1, suffix: "", label: "Cible unique : les PME du Québec" },
   { value: 8, suffix: "+", label: "Années en SEO & média" },
   { value: 100, suffix: "%", label: "Approche pilotée par la donnée" },
 ];
@@ -180,48 +180,55 @@ export type Plan = {
 
 export const PLANS: Plan[] = [
   {
-    name: "Meta Ads",
-    price: "500 $",
+    name: "Diagnostic éclair",
+    price: "950 à 1 500 $",
+    cadence: "",
+    highlight: false,
+    description: "Ponctuel. Audit de votre SEO, de vos campagnes et de votre visibilité IA, avec un plan d'action priorisé et chiffré, remis par écrit.",
+    features: [
+      "Audit SEO, Google Ads et visibilité IA",
+      "Mesure de ce que les IA disent de vous",
+      "Plan d'action priorisé et chiffré",
+      "Remis par écrit, sans obligation",
+    ],
+  },
+  {
+    name: "Essentiel",
+    price: "797 à 997 $",
     cadence: "/ mois",
     highlight: false,
-    description: "Pour scaler le volume et la notoriété sur Facebook & Instagram.",
+    description: "Un canal piloté (Google Ads ou SEO), pour démarrer avec un canal rentable.",
     features: [
-      "Audit & stratégie de compte",
-      "Configuration Pixel + CAPI",
-      "Campagnes prospection & retargeting",
-      "Audiences personnalisées & similaires",
-      "Recommandations créatives",
+      "Un canal piloté : Google Ads ou SEO",
+      "Suivi des demandes (appels, formulaires)",
+      "Optimisations mensuelles",
       "Rapport mensuel commenté",
     ],
   },
   {
-    name: "SEO",
-    price: "1 000 $",
+    name: "Croissance",
+    price: "1 497 à 1 997 $",
     cadence: "/ mois",
     highlight: true,
-    description: "Pour bâtir un actif organique durable, pensé GEO/IA inclus.",
+    description: "Le pack vedette : SEO et Google Ads pilotés ensemble, visibilité IA incluse.",
     features: [
-      "Audit technique & sémantique",
-      "Stratégie de contenu & calendrier",
-      "Optimisations on-page & maillage",
-      "Données structurées (JSON-LD)",
-      "Optimisation visibilité IA (GEO)",
-      "Suivi positions & reporting",
+      "SEO et Google Ads pilotés ensemble",
+      "Visibilité IA (GEO) incluse",
+      "Données structurées et contenu cité par les IA",
+      "Rapport axé sur les demandes réelles",
     ],
   },
   {
-    name: "Google Ads",
-    price: "500 $",
+    name: "Autorité IA",
+    price: "dès 2 497 $",
     cadence: "/ mois",
     highlight: false,
-    description: "Pour capter l'intention d'achat et un ROI immédiat.",
+    description: "La visibilité IA en produit à part entière : être cité par ChatGPT, Gemini et Perplexity.",
     features: [
-      "Structure de compte & arborescence",
-      "Search, Shopping & Performance Max",
-      "Recherche & gestion des mots-clés",
-      "Tracking & attribution",
-      "Tests d'enchères & d'annonces",
-      "Rapport mensuel commenté",
+      "Audit GEO complet et mesure des citations",
+      "Structure par entités et données structurées",
+      "Contenu conçu pour être cité par les IA",
+      "Mesure mensuelle des citations IA",
     ],
   },
 ];
@@ -263,27 +270,27 @@ export const FAQS: Faq[] = [
   {
     question: "Concrètement, que fait un consultant SEO & média comme vous ?",
     answer:
-      "J'aligne vos canaux d'acquisition (SEO, Google Ads, Meta Ads) autour d'une seule stratégie et d'un seul objectif : faire baisser votre coût d'acquisition tout en augmentant le volume. Audit, plan, exécution ou accompagnement de vos équipes — selon votre besoin.",
+      "Nous alignons vos canaux d'acquisition (SEO, Google Ads, Meta Ads) autour d'une seule stratégie et d'un seul objectif : des demandes réelles, mesurées. Diagnostic, plan, exécution ou accompagnement de vos équipes — selon votre besoin.",
   },
   {
     question: "Sur quels canaux puis-je travailler avec vous ?",
     answer:
-      "SEO (technique, contenu, autorité), Google Ads (Search, Shopping, Performance Max, DV360), Meta Ads (Facebook & Instagram) et la visibilité IA / GEO. L'idée n'est pas de tout activer, mais d'orchestrer les bons canaux pour votre marché.",
+      "SEO (technique, contenu, autorité), Google Ads (Search, Shopping, Performance Max, DV360), Meta Ads (Facebook & Instagram) et la visibilité IA / GEO. L'idée n'est pas de tout activer, mais d'orchestrer les bons canaux pour votre marché. Nous vous le recommandons après le Diagnostic éclair.",
   },
   {
     question: "Travaillez-vous avec le e-commerce et le B2B ?",
     answer:
-      "Oui. J'accompagne aussi bien des e-commerces (cosmétiques, retail) que des entreprises B2B et de services, au Québec, en France et en Tunisie. Chaque secteur a sa logique d'intention que j'adapte.",
+      "Oui. Nous accompagnons les PME du Québec : manufacturiers B2B et entreprises de services, de la Beauce à la Chaudière-Appalaches et partout dans la province. Chaque secteur a sa logique d'intention que nous adaptons.",
   },
   {
     question: "Comment mesurez-vous les résultats ?",
     answer:
-      "Tout est piloté par la donnée : tracking propre (GA4, CAPI, UTM/ValueTrack), KPIs définis ensemble (CAC, ROAS, positions, trafic qualifié) et reporting commenté. Vous savez toujours ce que chaque euro produit.",
+      "Tout est piloté par la donnée : tracking propre (GA4, CAPI, UTM/ValueTrack), indicateurs définis ensemble (demandes, coût par demande, positions) et reporting commenté. Vous savez toujours ce que chaque dollar produit.",
   },
   {
     question: "Comment se passe le démarrage ?",
     answer:
-      "On commence par un échange pour cadrer vos objectifs, suivi d'un audit. Je vous remets ensuite un plan d'action priorisé et chiffré — puis on exécute, par sprints, avec des points réguliers. Pas de boîte noire.",
+      "On commence par un échange pour cadrer vos objectifs, suivi d'un Diagnostic éclair. Vous recevez ensuite un plan d'action priorisé et chiffré — puis on exécute, par sprints, avec des points réguliers. Pas de boîte noire.",
   },
 ];
 
@@ -323,18 +330,13 @@ export type Certification = {
 };
 const SKILLSHOP = "https://skillshop.withgoogle.com/";
 const KLAVIYO = "https://www.klaviyo.com/";
-// Les 9 certificats du portefeuille Skillshop/Klaviyo (relevés le 09/11/2026). Les certificats expirés restent affichés, avec leur statut.
+// Certifications valides uniquement (relevées le 09/11/2026). Les certificats expirés ont été retirés du site le 20/11/2026
+// (Google Ads Display 2025 FR/EN, Display & Video 360 2024, Shopping optimisées par l'IA 2024, Google Ads Search 2023, Semrush 2022).
 export const CERTIFICATIONS: Certification[] = [
   { name: "Klaviyo practitioner certificate", issuer: "Klaviyo", issuerUrl: KLAVIYO, url: "https://credential.klaviyo.com/ea48d736-28c0-4db5-801c-cbeb17f25d9d", status: "valide", period: "obtenue le 06/11/2026, valable jusqu'au 06/11/2028", image: "/certifications/klaviyo-practitioner.png", issued: "2026-11-06", expires: "2028-11-06", credentialId: "199690546" },
   { name: "Certification Google Ads pour la publicité sur le Réseau Display", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/518f8469-f11d-4036-80ab-ec151e70d591", status: "valide", period: "obtenue le 19/06/2026, valable jusqu'au 19/06/2027", image: "/certifications/google-ads-display-2026-fr.png", issued: "2026-06-19", expires: "2027-06-19", credentialId: "185877751" },
   { name: "Display & Video 360 Certification Exam", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/791c02af-8507-425e-a99a-2133da6f6e00", status: "valide", period: "obtenue le 18/02/2026, valable jusqu'au 18/02/2027", image: "/certifications/dv360-en.png", issued: "2026-02-18", expires: "2027-02-18", credentialId: "174821804" },
   { name: "Examen de certification Campaign Manager 360", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/2ed04b11-b8fc-4494-a401-bbd0c73e247b", status: "valide", period: "obtenue le 18/02/2026, valable jusqu'au 18/02/2027", image: "/certifications/cm360.png", issued: "2026-02-18", expires: "2027-02-18", credentialId: "174826106" },
-  { name: "Google Ads Display Certification", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/328942ff-15d4-460d-b232-31750ec34a52", status: "expirée", period: "obtenue le 03/04/2025, expirée le 03/04/2026", image: "/certifications/google-ads-display-2025-en.png", issued: "2025-04-03", expires: "2026-04-03", credentialId: "139072244" },
-  { name: "Certification Google Ads pour la publicité sur le Réseau Display (2025)", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/3b58c120-f25d-41a7-8458-ff694fc0a328", status: "expirée", period: "obtenue le 03/04/2025, expirée le 03/04/2026", image: "/certifications/google-ads-display-2025-fr.png", issued: "2025-04-03", expires: "2026-04-03", credentialId: "139065008" },
-  { name: "Examen de certification Display & Video 360", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/816c2ed0-da3c-4dcf-863f-4a644dba8b48", status: "expirée", period: "obtenue le 08/07/2024, expirée le 08/07/2025", image: "/certifications/dv360-fr.png", issued: "2024-07-08", expires: "2025-07-08", credentialId: "108264349" },
-  { name: "Certification pour les annonces Shopping optimisées par l'IA", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/7771b53b-5baf-4aac-b0af-5b03cf09f374", status: "expirée", period: "obtenue le 22/04/2024, expirée le 22/04/2025", image: "/certifications/google-ads-shopping-ia.png", issued: "2024-04-22", expires: "2025-04-22", credentialId: "284751057" },
-  { name: "Certification Google Ads sur le Réseau de Recherche", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/db101be0-5fa4-4014-b9a1-827ed3030e09", status: "expirée", period: "obtenue le 08/10/2023, expirée le 08/10/2024", image: "/certifications/google-ads-search.png", issued: "2023-10-08", expires: "2024-10-08", credentialId: "212043715" },
-  { name: "Certification Semrush (SEO Toolkit)", issuer: "Semrush Academy", issuerUrl: "https://www.semrush.com/academy/", url: "https://static.semrush.com/academy-prod/certificate/1162812/SEMrush-Academy-Certificate-336eb7ae7b97f2cb6185eac9dc425de975dce2b2e5e7cf587c5c09737a373253.png", status: "expirée", period: "expirée le 05/04/2022" },
 ];
 
 /** Outils maîtrisés (affichés sur le site et repris dans knowsAbout). */
@@ -382,59 +384,43 @@ export type Usp = {
 export const USPS: Usp[] = [
   {
     id: "U1",
-    title: "Je mesure d'abord",
-    text: "Avant de toucher aux campagnes, je vérifie ce que le compte compte comme demande. Un appel très court, un clic sur un itinéraire ou un formulaire sans suite ne sont pas des demandes : je compte ce qui mène à un vrai prospect.",
+    title: "On compte les demandes, pas les clics.",
+    text: "Un appel qualifié, un formulaire rempli, une demande de soumission : c'est ce que nous mesurons et optimisons. Pas les rapports de clics et de positions.",
     proof: "Méthode de travail décrite sur la page Méthode",
     href: "/methode/",
     statut: "prouvee",
   },
   {
     id: "U2",
-    title: "Des chiffres sourcés, avec leur limite",
-    text: "Chaque étude de cas donne la période, la source (Search Console, Google Ads, CRM) et ce que les chiffres ne prouvent pas. Pour CNFSE : de 2 417 à 3 941 clics Google par mois en un an.",
+    title: "Visible dans Google ET dans ChatGPT.",
+    text: "Le SEO classique et la visibilité IA (GEO) sont travaillés ensemble, dès le forfait Croissance. Pas vendus en option à prix d'or.",
+    proof: "Service visibilité IA (GEO)",
+    href: "/services/geo/",
+    statut: "prouvee",
+  },
+  {
+    id: "U3",
+    title: "Vos comptes, vos données, votre nom.",
+    text: "Les campagnes vivent sur vos comptes publicitaires, en votre nom. Si vous partez, tout reste chez vous.",
+    proof: "Forfaits fixes publiés, sans commission sur le budget pub",
+    href: "/tarifs/",
+    statut: "prouvee",
+  },
+  {
+    id: "U4",
+    title: "Expertise senior de niveau grand compte, au prix PME.",
+    text: "La méthode et la rigueur des grands comptes, appliquées aux budgets et aux réalités des PME du Québec.",
     proof: "Étude de cas SEO, septembre 2025 → septembre 2026",
     href: "/etudes-de-cas/seo-habilitation-electrique/",
     statut: "prouvee",
   },
   {
-    id: "U3",
-    title: "Un seul interlocuteur",
-    text: "SEO, Google Ads, Meta Ads, visibilité dans les IA et mesure sont pilotés ensemble par la même personne. Vous ne réunissez pas trois prestataires pour savoir lequel a généré la demande.",
-    proof: "Certifié Google Ads, Display & Video 360 et Semrush",
-    href: "/a-propos/",
-    statut: "prouvee",
-  },
-  {
-    id: "U4",
-    title: "Une méthode documentée",
-    text: "Structure du site par entités, rapport d'entités par page, vérification des chiffres avant publication.",
-    proof: "Page « Ma méthode » à publier",
-    statut: "a-fournir",
-    manque: "Page méthode avec un extrait de rapport d'entités anonymisé.",
-  },
-  {
     id: "U5",
-    title: "Les deux rives",
-    text: "J'ai piloté [À COMPLÉTER : N] comptes publicitaires au Québec, pour des budgets de [À COMPLÉTER : X] à [À COMPLÉTER : Y] par mois, dans [À COMPLÉTER : secteurs]. Je travaille aujourd'hui depuis la Tunisie et le Québec pour des entreprises tunisiennes, françaises et canadiennes : je connais les contraintes des deux rives.",
-    proof: "Chiffres des comptes au Québec à valider",
-    statut: "a-fournir",
-    manque: "Nombre de comptes et budgets gérés au Québec depuis 2021, publiables sans nommer l'agence.",
-  },
-  {
-    id: "U6",
-    title: "Première mesure de la visibilité IA en Tunisie",
-    text: "Combien d'entreprises tunisiennes ChatGPT, Gemini et Perplexity citent-ils ?",
-    proof: "Étude à produire",
-    statut: "a-fournir",
-    manque: "Panel de requêtes par secteur et relevé ZeroRank daté.",
-  },
-  {
-    id: "U7",
-    title: "Prix publiés, audit écrit, compte à vous",
-    text: "Grille tarifaire publique, audit remis par écrit, accès au compte publicitaire en votre nom.",
-    proof: "Tarifs à fournir",
-    statut: "a-fournir",
-    manque: "Prix de l'audit, de la gestion mensuelle et du taux journalier.",
+    title: "Aucune commission sur le budget pub, jamais.",
+    text: "Nos forfaits sont fixes et publiés. Nous n'avons aucun intérêt à gonfler vos dépenses publicitaires.",
+    proof: "Grille tarifaire publique",
+    href: "/tarifs/",
+    statut: "prouvee",
   },
 ];
 
@@ -443,34 +429,18 @@ export type Icp = { id: string; label: string; who: string; need: string; offer:
 export const ICPS: Icp[] = [
   {
     id: "I1",
-    label: "PME tunisiennes qui vendent en France ou au Canada",
-    who: "Cliniques, hôtels, écoles privées, industrie, centres d'appels.",
-    need: "Recevoir des demandes de l'étranger, pas seulement du marché local.",
-    offer: "SEO en français, Google Ads et suivi des demandes.",
-    href: "/pour/exportateurs/",
+    label: "PME du Québec",
+    who: "Manufacturiers B2B et entreprises de services, en Beauce, en Chaudière-Appalaches et partout au Québec.",
+    need: "Des demandes réelles, mesurées — pas des rapports de clics.",
+    offer: "Les packs Croissance et Essentiel.",
+    href: "/pour/",
   },
   {
     id: "I2",
     label: "Équipes marketing internes",
-    who: "Responsables marketing de PME et de groupes qui travaillent avec une agence.",
-    need: "Savoir juger le travail d'un prestataire et gagner en autonomie.",
-    offer: "Audit écrit, puis formation sur vos propres comptes.",
-    href: "/formations/intra-entreprise/",
-  },
-  {
-    id: "I3",
-    label: "Freelances et agences tunisiennes",
-    who: "Ceux qui servent des clients en France, au Canada ou dans le Golfe.",
-    need: "Une méthode, un reporting et un niveau de SEO international.",
-    offer: "Formation, coaching et marque blanche.",
-    href: "/pour/freelances-agences/",
-  },
-  {
-    id: "I4",
-    label: "Agences et PME en France et au Québec",
-    who: "Entreprises qui cherchent un renfort SEO ou Google Ads fiable.",
-    need: "Un consultant senior en nearshore, en français.",
-    offer: "Missions SEO et Google Ads depuis la Tunisie.",
-    href: "/pour/entreprises-francaises-canadiennes/",
+    who: "Responsables marketing de PME qui travaillent avec un prestataire.",
+    need: "Juger le travail d'un prestataire et garder la main.",
+    offer: "Le Diagnostic éclair, remis par écrit.",
+    href: "/pour/",
   },
 ];
