@@ -286,7 +286,7 @@ export const CONTENT: Record<string, PageContent> = {
       },
       {
         "q": "Proposez-vous des formations ?",
-        "a": "Oui. La formation SEO dure 10 heures en ligne, pour 3 personnes au maximum, avec une attestation et un suivi. [À CONFIRMER : prix de la formation en dollars canadiens]"
+        "a": "Oui. La formation SEO dure 10 heures en ligne, pour 3 personnes au maximum, avec une attestation et un suivi. Prix sur devis."
       }
     ],
     "cta": {
@@ -3448,7 +3448,7 @@ export const CONTENT: Record<string, PageContent> = {
   // ───────────────────────── F02 · Formation SEO ─────────────────────────
   F02: {
     answer:
-      "Formation SEO animée par Majed Ayari : apprendre à auditer un site, structurer ses pages, rédiger pour les entités attendues par Google et suivre les résultats dans Search Console. Format : 10 heures en ligne, en groupe de 3 personnes maximum. [À CONFIRMER : prix de la formation en dollars canadiens]",
+      "Formation SEO animée par Majed Ayari : apprendre à auditer un site, structurer ses pages, rédiger pour les entités attendues par Google et suivre les résultats dans Search Console. Format : 10 heures en ligne, en groupe de 3 personnes maximum. Prix : sur devis.",
     sections: [
       {
         id: "pour-qui",
@@ -3547,7 +3547,7 @@ export const CONTENT: Record<string, PageContent> = {
             type: "table",
             head: ["Formule", "Prix"],
             rows: [
-              ["Inscription individuelle (10 heures)", "[À CONFIRMER : prix CAD]"],
+              ["Inscription individuelle (10 heures)", "Sur devis"],
               ["Équipe (intra-entreprise)", "Sur devis"],
             ],
           },
@@ -3556,7 +3556,7 @@ export const CONTENT: Record<string, PageContent> = {
       },
     ],
     faq: [
-      { q: "Quel est le prix de la formation SEO ?", a: "[À CONFIRMER : prix en dollars canadiens] pour l'inscription individuelle (10 heures). Le tarif équipe se fait sur devis." },
+      { q: "Quel est le prix de la formation SEO ?", a: "Sur devis pour l'inscription individuelle (10 heures). Le tarif équipe se fait sur devis." },
       { q: "La formation est-elle en présentiel ou en ligne ?", a: "La formation se donne en ligne, en groupe de 3 personnes maximum." },
       { q: "Faut-il des connaissances techniques ?", a: "Non. Il faut savoir utiliser un navigateur et un tableur. Les outils sont expliqués pas à pas." },
       { q: "Parlez-vous aussi de l'intelligence artificielle ?", a: "Oui. Un module est consacré à la visibilité dans ChatGPT, Gemini et Perplexity, et à l'usage de l'IA dans la production de contenu." },
@@ -3717,7 +3717,7 @@ export const CONTENT: Record<string, PageContent> = {
             type: "table",
             head: ["Formule", "Prix (CAD)"],
             rows: [
-              ["Formation SEO, inscription individuelle (10 heures, en ligne)", "[À CONFIRMER : prix CAD]"],
+              ["Formation SEO, inscription individuelle (10 heures, en ligne)", "Sur devis"],
               ["Formation d'équipe (intra-entreprise)", "Sur devis"],
             ],
           },
@@ -3784,4 +3784,4 @@ export function placeholdersOf(id: string): string[] {
 export function assertNoPlaceholders(id: string) {
   const left = placeholdersOf(id);
   if (left.length) throw new Error(`Page ${id} publiée avec ${left.length} champ(s) à fournir : ${left.slice(0, 3).join(" · ")}…`);
-            }
+        }
