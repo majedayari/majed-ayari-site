@@ -101,8 +101,7 @@ export function backlinksOf(page: SitePage) {
   return PAGES.filter((p) => !kids.has(p.id) && contextualLinks(p).some((l) => l.id === page.id));
 }
 
-/** Balise <title> : la requête de la page d'abord (début du H1), puis l'identité « basé en Tunisie ».
- *  Le client français ou canadien voit l'argument dès le résultat Google, sans perdre la requête française. */
+/** Balise <title> : la requête de la page d'abord, puis l'identité de l'agence. */
 export function seoTitle(p: SitePage) {
   const MAX = 70; // au-delà, Google tronque le titre
   if (p.cluster === "Légal") return `${p.label} · Majed Ayari`;
@@ -110,10 +109,10 @@ export function seoTitle(p: SitePage) {
   // Études de cas : le libellé porte le client (« Étude de cas Google Ads · Bisson Expert »)
   if (p.pageType.startsWith("Preuve (cas)") && head.length < 12) head = p.label;
   else if (head.length < 8) head = p.h1; // le début seul ne dit rien
-  if (head.includes("Majed Ayari")) return /tunisi/i.test(head) ? head : `${head}, consultant basé en Tunisie`;
-  const suffixes = /tunisi/i.test(head) ? [" · Majed Ayari"] : [" · Majed Ayari, basé en Tunisie", " · Majed Ayari (Tunisie)"];
+  if (head.includes("Majed Ayari")) return head;
+  const SUFFIX = " · Majed Ayari";
   for (const base of [head, p.label]) {
-    for (const sfx of suffixes) if ((base + sfx).length <= MAX) return base + sfx;
+    if ((base + SUFFIX).length <= MAX) return base + SUFFIX;
   }
   return `${p.label} · Majed Ayari`;
 }
