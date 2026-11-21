@@ -8,23 +8,29 @@ import { useIsomorphicLayoutEffect } from "@/lib/anime/useIsomorphicLayoutEffect
 import { useMagnetic } from "@/lib/anime/useMagnetic";
 import { prefersReducedMotion } from "@/lib/anime/reducedMotion";
 
-// H1 = positionnement : consultant basé en Tunisie, pour les entreprises françaises et canadiennes
+// H1 = positionnement : l'agence d'acquisition des PME québécoises
 const TITLE_TOKENS: { t: string; grad?: boolean }[] = [
-  { t: "Consultant" },
+  { t: "L'agence" },
+  { t: "d'acquisition" },
+  { t: "des" },
+  { t: "PME" },
+  { t: "québécoises", grad: true },
+  { t: ":" },
   { t: "SEO," },
   { t: "Google" },
+  { t: "Ads," },
+  { t: "Meta" },
   { t: "Ads" },
   { t: "et" },
-  { t: "IA" },
-  { t: "basé" },
+  { t: "visibilité" },
+  { t: "IA,", grad: true },
+  { t: "mesurés" },
   { t: "en" },
-  { t: "Tunisie,", grad: true },
-  { t: "pour" },
-  { t: "les" },
-  { t: "entreprises" },
-  { t: "françaises", grad: true },
-  { t: "et" },
-  { t: "canadiennes", grad: true },
+  { t: "demandes" },
+  { t: "réelles,", grad: true },
+  { t: "sur" },
+  { t: "vos" },
+  { t: "comptes." },
 ];
 
 export function Hero() {
@@ -123,9 +129,10 @@ export function Hero() {
           </h1>
 
           <p className="hero-sub mt-6 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
-            Arrêtez de choisir entre visibilité et rentabilité. Depuis Hammamet, à
-            une heure de Paris au plus, je pilote votre SEO, vos campagnes Google
-            Ads et votre visibilité dans les IA, sur vos comptes et en français.
+            Nous pilotons votre SEO, vos campagnes Google Ads et Meta Ads, et votre
+            visibilité dans ChatGPT. Un seul indicateur compte : les demandes
+            réelles que nous vous apportons. Tout se passe sur vos comptes, en
+            votre nom.
           </p>
 
           <div className="hero-cta mt-9 flex flex-col items-center gap-4 sm:flex-row">
@@ -148,8 +155,10 @@ export function Hero() {
               ))}
             </div>
             <span>
-              <span className="font-semibold text-white">Approche data-driven</span> ·
-              clients au QC, en France & en Tunisie
+              <span className="font-semibold text-white">
+                Approche pilotée par la donnée
+              </span>{" "}
+              · PME du Québec · Aucune commission sur le budget pub
             </span>
           </div>
         </div>
