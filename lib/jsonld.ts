@@ -16,8 +16,7 @@ export const PERSON_ID = `${SITE.url}/#majed-ayari`;
 export const WEBSITE_ID = `${SITE.url}/#website`;
 const SERVICE_ID = `${SITE.url}/#service`;
 const AREA_SERVED = [
-  { "@type": "Country", name: "Tunisie" },
-  { "@type": "Country", name: "France" },
+  { "@type": "AdministrativeArea", name: "Québec" },
   { "@type": "Country", name: "Canada" },
 ];
 const EVENT_ID = `${SITE.url}/#seo-camp-day-lille-2019`;
