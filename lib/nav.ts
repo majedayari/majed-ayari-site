@@ -4,7 +4,6 @@ export const NAV = [
   { label: "Formations", url: "/formations/" },
   { label: "Pour qui", url: "/pour/" },
   { label: "Études de cas", url: "/etudes-de-cas/" },
-  { label: "Tunisie", url: "/tunisie/" },
   { label: "Ressources", url: "/ressources/" },
   { label: "Tarifs", url: "/tarifs/" },
   { label: "À propos", url: "/a-propos/" },
