@@ -249,7 +249,7 @@ export const CONTENT: Record<string, PageContent> = {
         "blocks": [
           {
             "type": "p",
-            "text": "C'est moi, du premier échange au dernier rapport. Vous ne réunissez pas trois prestataires pour savoir lequel a généré une demande. Certifications affichées : Google Ads, Display & Video 360, Semrush. Outils : Google Analytics 4, Google Tag Manager, Semrush, Screaming Frog, n8n."
+            "text": "C'est moi, du premier échange au dernier rapport. Vous ne réunissez pas trois prestataires pour savoir lequel a généré une demande. Certifications affichées : Google Ads, Display & Video 360, Campaign Manager 360, Klaviyo. Outils : Google Analytics 4, Google Tag Manager, Semrush, Screaming Frog, n8n."
           },
           {
             "type": "p",
@@ -1241,7 +1241,7 @@ export const CONTENT: Record<string, PageContent> = {
             "items": [
               "Intervenant au SEO CAMP Day de Lille, le 11 janvier 2019.",
               "Co-auteur du livre blanc Rocketlinks « Les secrets du netlinking révélés par 9 experts SEO ».",
-              "Certifications affichées : Google Ads, Display & Video 360, Semrush. Outils : GA4, Google Tag Manager, Semrush, Screaming Frog."
+              "Certifications affichées : Google Ads, Display & Video 360, Campaign Manager 360, Klaviyo. Outils : GA4, Google Tag Manager, Semrush, Screaming Frog."
             ]
           },
           {
@@ -3525,7 +3525,7 @@ export const CONTENT: Record<string, PageContent> = {
         usp: "U3",
         h2: "Qui anime",
         blocks: [
-          { type: "p", text: "Majed Ayari, consultant SEO et Google Ads. Intervenant au SEO CAMP Day de Lille (2019), co-auteur d'un livre blanc sur le netlinking, certifié Semrush. Je fais du SEO pour des clients chaque semaine : la formation repose sur des comptes réels." },
+          { type: "p", text: "Majed Ayari, consultant SEO et Google Ads. Intervenant au SEO CAMP Day de Lille (2019), co-auteur d'un livre blanc sur le netlinking. Je fais du SEO pour des clients chaque semaine : la formation repose sur des comptes réels." },
           { type: "link", text: "Mon parcours et mes références", href: "/a-propos/" },
         ],
       },
