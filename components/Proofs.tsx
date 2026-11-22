@@ -1,6 +1,9 @@
 import { ArrowUpRight, BadgeCheck, BookOpen, Mic, MapPin, Wrench } from "lucide-react";
 import { CERTIFICATIONS, GBP, PROOFS, SOCIALS, TOOLS } from "@/lib/data";
 
+/** Préfixe basePath pour les assets public/ : vide en production racine, /majed-ayari-site sur la démo Pages. */
+const basePath = process.env.NEXT_BASE_PATH ?? "";
+
 /** Preuves vérifiables (conférence, publication, fiche Google, profils) : à montrer AVANT de demander le contact. */
 export function Proofs({ compact = false }: { compact?: boolean }) {
   return (
@@ -34,7 +37,7 @@ export function Proofs({ compact = false }: { compact?: boolean }) {
                 <li key={c.url ?? c.name} className="flex items-start gap-3 rounded-xl border border-ink/10 bg-cream/50 p-3 text-sm text-ink">
                   {c.image ? (
                     // eslint-disable-next-line @next/next/no-img-element
-                    <img src={c.image} alt={`Badge : ${c.name}`} width={64} height={64} loading="lazy" className={`h-16 w-16 shrink-0 ${c.status === "expirée" ? "opacity-60 grayscale" : ""}`} />
+                    <img src={`${basePath}${c.image}`} alt={`Badge : ${c.name}`} width={64} height={64} loading="lazy" className={`h-16 w-16 shrink-0 ${c.status === "expirée" ? "opacity-60 grayscale" : ""}`} />
                   ) : (
                     <BadgeCheck className="h-16 w-16 shrink-0 text-ink/20" aria-hidden="true" />
                   )}
