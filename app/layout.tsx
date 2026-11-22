@@ -19,11 +19,11 @@ const sora = Sora({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} · Consultant SEO et Google Ads basé en Tunisie`,
+    default: `${SITE.name} · Agence SEO, Google Ads, Meta Ads et visibilité IA pour PME du Québec`,
     template: `%s · ${SITE.name}`,
   },
   description:
-    "Majed Ayari, consultant SEO, Google Ads et référencement IA basé en Tunisie (Hammamet), pour les entreprises françaises et canadiennes : un consultant senior francophone, à une heure de Paris.",
+    "L'agence d'acquisition des PME québécoises : SEO, Google Ads, Meta Ads et visibilité IA (GEO), mesurés en demandes réelles, sur vos comptes.",
   keywords: [
     "consultant SEO",
     "Google Ads",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "visibilité IA",
     "achat média",
     "Québec",
-    "Tunisie",
+    "PME",
     "Majed Ayari",
   ],
   authors: [{ name: SITE.name }],
@@ -41,15 +41,15 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     url: SITE.url,
     siteName: SITE.name,
-    title: `${SITE.name} · Consultant SEO et Google Ads basé en Tunisie`,
+    title: `${SITE.name} · Agence SEO, Google Ads, Meta Ads et visibilité IA pour PME du Québec`,
     description:
-      "Consultant SEO, Google Ads et IA basé en Tunisie, pour les entreprises françaises et canadiennes.",
+      "SEO, Google Ads, Meta Ads et visibilité IA pour les PME du Québec, mesurés en demandes réelles, sur vos comptes.",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.name} · Consultant SEO et Google Ads basé en Tunisie`,
+    title: `${SITE.name} · Agence SEO, Google Ads, Meta Ads et visibilité IA pour PME du Québec`,
     description:
-      "Consultant SEO, Google Ads et IA basé en Tunisie, pour les entreprises françaises et canadiennes.",
+      "SEO, Google Ads, Meta Ads et visibilité IA pour les PME du Québec, mesurés en demandes réelles, sur vos comptes.",
   },
   robots: { index: true, follow: true },
 };
