@@ -1,6 +1,7 @@
-"use client";
-
 import { CLIENT_LOGOS } from "@/lib/data";
+
+/** Préfixe basePath pour les assets public/ : vide en production racine, /majed-ayari-site sur la démo Pages. */
+const basePath = process.env.NEXT_BASE_PATH ?? "";
 
 type LogoItem =
   | { kind: "text"; name: string }
@@ -10,7 +11,7 @@ const LOGO_ITEMS: LogoItem[] = [
   {
     kind: "image",
     name: "Groupe GEFOR",
-    src: "/logos/gefor.svg",
+    src: `${basePath}/logos/gefor.svg`,
     width: 170,
     height: 30,
   },
