@@ -5,7 +5,7 @@ const basePath = process.env.NEXT_BASE_PATH ?? "";
 
 type LogoItem =
   | { kind: "text"; name: string }
-  | { kind: "image"; name: string; src: string; width: number; height: number };
+  | { kind: "image"; name: string; src: string; width: number; height: number; className?: string };
 
 const LOGO_ITEMS: LogoItem[] = [
   {
@@ -14,6 +14,14 @@ const LOGO_ITEMS: LogoItem[] = [
     src: `${basePath}/logos/gefor.svg`,
     width: 170,
     height: 30,
+  },
+  {
+    kind: "image",
+    name: "Windward Yachts",
+    src: `${basePath}/logos/windward-yachts.svg`,
+    width: 72,
+    height: 72,
+    className: "h-11 w-auto",
   },
   ...CLIENT_LOGOS.map<LogoItem>((name) => ({ kind: "text", name })),
 ];
@@ -37,7 +45,7 @@ export function ClientLogos() {
                   alt={logo.name}
                   width={logo.width}
                   height={logo.height}
-                  className="h-8 w-auto opacity-60 transition-opacity hover:opacity-100"
+                  className={`${logo.className ?? "h-8 w-auto"} opacity-60 transition-opacity hover:opacity-100`}
                 />
               ) : (
                 <span
