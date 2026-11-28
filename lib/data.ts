@@ -323,18 +323,12 @@ export type Certification = {
 };
 const SKILLSHOP = "https://skillshop.withgoogle.com/";
 const KLAVIYO = "https://www.klaviyo.com/";
-// Les 9 certificats du portefeuille Skillshop/Klaviyo (relevés le 09/11/2026). Les certificats expirés restent affichés, avec leur statut.
+// Certifications valides uniquement (relevées le 09/11/2026) : pas de doublons, pas d'expirées.
 export const CERTIFICATIONS: Certification[] = [
   { name: "Klaviyo practitioner certificate", issuer: "Klaviyo", issuerUrl: KLAVIYO, url: "https://credential.klaviyo.com/ea48d736-28c0-4db5-801c-cbeb17f25d9d", status: "valide", period: "obtenue le 06/11/2026, valable jusqu'au 06/11/2028", image: "/certifications/klaviyo-practitioner.png", issued: "2026-11-06", expires: "2028-11-06", credentialId: "199690546" },
   { name: "Certification Google Ads pour la publicité sur le Réseau Display", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/518f8469-f11d-4036-80ab-ec151e70d591", status: "valide", period: "obtenue le 19/06/2026, valable jusqu'au 19/06/2027", image: "/certifications/google-ads-display-2026-fr.png", issued: "2026-06-19", expires: "2027-06-19", credentialId: "185877751" },
   { name: "Display & Video 360 Certification Exam", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/791c02af-8507-425e-a99a-2133da6f6e00", status: "valide", period: "obtenue le 18/02/2026, valable jusqu'au 18/02/2027", image: "/certifications/dv360-en.png", issued: "2026-02-18", expires: "2027-02-18", credentialId: "174821804" },
   { name: "Examen de certification Campaign Manager 360", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/2ed04b11-b8fc-4494-a401-bbd0c73e247b", status: "valide", period: "obtenue le 18/02/2026, valable jusqu'au 18/02/2027", image: "/certifications/cm360.png", issued: "2026-02-18", expires: "2027-02-18", credentialId: "174826106" },
-  { name: "Google Ads Display Certification", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/328942ff-15d4-460d-b232-31750ec34a52", status: "expirée", period: "obtenue le 03/04/2025, expirée le 03/04/2026", image: "/certifications/google-ads-display-2025-en.png", issued: "2025-04-03", expires: "2026-04-03", credentialId: "139072244" },
-  { name: "Certification Google Ads pour la publicité sur le Réseau Display (2025)", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/3b58c120-f25d-41a7-8458-ff694fc0a328", status: "expirée", period: "obtenue le 03/04/2025, expirée le 03/04/2026", image: "/certifications/google-ads-display-2025-fr.png", issued: "2025-04-03", expires: "2026-04-03", credentialId: "139065008" },
-  { name: "Examen de certification Display & Video 360", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/816c2ed0-da3c-4dcf-863f-4a644dba8b48", status: "expirée", period: "obtenue le 08/07/2024, expirée le 08/07/2025", image: "/certifications/dv360-fr.png", issued: "2024-07-08", expires: "2025-07-08", credentialId: "108264349" },
-  { name: "Certification pour les annonces Shopping optimisées par l'IA", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/7771b53b-5baf-4aac-b0af-5b03cf09f374", status: "expirée", period: "obtenue le 22/04/2024, expirée le 22/04/2025", image: "/certifications/google-ads-shopping-ia.png", issued: "2024-04-22", expires: "2025-04-22", credentialId: "284751057" },
-  { name: "Certification Google Ads sur le Réseau de Recherche", issuer: "Google", issuerUrl: SKILLSHOP, url: "https://skillshop.credential.net/db101be0-5fa4-4014-b9a1-827ed3030e09", status: "expirée", period: "obtenue le 08/10/2023, expirée le 08/10/2024", image: "/certifications/google-ads-search.png", issued: "2023-10-08", expires: "2024-10-08", credentialId: "212043715" },
-  { name: "Certification Semrush (SEO Toolkit)", issuer: "Semrush Academy", issuerUrl: "https://www.semrush.com/academy/", url: "https://static.semrush.com/academy-prod/certificate/1162812/SEMrush-Academy-Certificate-336eb7ae7b97f2cb6185eac9dc425de975dce2b2e5e7cf587c5c09737a373253.png", status: "expirée", period: "expirée le 05/04/2022" },
 ];
 
 /** Outils maîtrisés (affichés sur le site et repris dans knowsAbout). */
@@ -400,7 +394,7 @@ export const USPS: Usp[] = [
     id: "U3",
     title: "Un seul interlocuteur",
     text: "SEO, Google Ads, Meta Ads, visibilité dans les IA et mesure sont pilotés ensemble par la même personne. Vous ne réunissez pas trois prestataires pour savoir lequel a généré la demande.",
-    proof: "Certifié Google Ads, Display & Video 360 et Semrush",
+    proof: "Certifié Google Ads, Display & Video 360, Campaign Manager 360 et Klaviyo",
     href: "/a-propos/",
     statut: "prouvee",
   },
