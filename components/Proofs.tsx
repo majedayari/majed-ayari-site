@@ -42,7 +42,7 @@ export function Proofs({ compact = false }: { compact?: boolean }) {
                     {c.url ? <a href={c.url} target="_blank" rel="noopener" className="font-medium text-accent hover:underline">{c.name}</a> : <span className="font-medium">{c.name}</span>}
                     <p className="text-muted">{c.issuer}</p>
                     <p className="mt-0.5 text-xs text-muted">
-                      <span className={c.status === "valide" ? "font-semibold text-emerald-700" : "font-semibold text-ink/50"}>{c.status === "valide" ? "Valide" : "Expirée"}</span> · {c.period}
+                      <span className={c.status === "valide" ? "font-semibold text-emerald-700" : "font-semibold text-ink/50"}>{c.status === "valide" ? "Valide" : "Expirée"}</span>
                     </p>
                   </div>
                 </li>
